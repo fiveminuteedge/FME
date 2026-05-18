@@ -69,7 +69,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
               <div>
                 <label className="block text-sm text-blue-300 mb-1.5">Password</label>
                 <input
-                  type="password"
+                  type="text"
                   value={password}
                   onChange={e => setPassword(e.target.value)}
                   required
