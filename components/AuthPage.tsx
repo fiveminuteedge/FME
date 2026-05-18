@@ -37,12 +37,12 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
   return (
     <main className="bg-hero min-h-screen flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
-        <Link href="/" className="block text-center font-display text-2xl text-white mb-8">
+        <Link href="/" className="block text-center font-display text-2xl text-gray-900 mb-8">
           FiveMinuteEdge
         </Link>
 
         <div className="bg-card rounded-2xl p-7">
-          <h1 className="font-display text-2xl text-white mb-1">
+          <h1 className="font-display text-2xl text-gray-900 mb-1">
             {mode === 'signup' ? 'Start your free trial' : 'Welcome back'}
           </h1>
           <p className="text-sm text-blue-300 mb-6">
@@ -62,7 +62,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
                   value={email}
                   onChange={e => setEmail(e.target.value)}
                   required
-                  className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-white text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
+                  className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
                   placeholder="you@company.com"
                 />
               </div>
@@ -74,7 +74,7 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
                   onChange={e => setPassword(e.target.value)}
                   required
                   minLength={6}
-                  className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-white text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
+                  className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
                   placeholder="••••••••"
                 />
               </div>
@@ -94,9 +94,9 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
 
         <p className="text-center text-sm text-blue-400 mt-4">
           {mode === 'signup' ? (
-            <>Already have an account? <Link href="/auth/login" className="text-blue-300 hover:text-white transition-colors">Sign in</Link></>
+            <>Already have an account? <Link href="/auth/login" className="text-blue-300 hover:text-gray-900 transition-colors">Sign in</Link></>
           ) : (
-            <>New here? <Link href="/auth/signup" className="text-blue-300 hover:text-white transition-colors">Start free trial</Link></>
+            <>New here? <Link href="/auth/signup" className="text-blue-300 hover:text-gray-900 transition-colors">Start free trial</Link></>
           )}
         </p>
       </div>
