@@ -309,6 +309,296 @@ export const lessons: Lesson[] = [
       correctFeedback: "That's it. Quantified problem, business case, champion-enabled, and cost of delay visible. That's the full framework — and it's what separates top performers from everyone else.",
       wrongFeedback: "The value mindset is: quantify the problem, build the business case, enable your champion, make the cost of delay explicit. Everything else — rapport, demos, closing — supports that foundation but can't replace it."
     }
+  },
+  {
+    id: 11,
+    module: 2,
+    day: 11,
+    title: "The deal you think you have",
+    subtitle: "Why single-threaded deals die — and what to do about it today",
+    story: `I once watched a rep carry a deal through six months of discovery, demos, and negotiations. He had one contact: a director of operations who loved the product, responded to every email, and told him repeatedly they were going to buy.\n\nThen the director left the company.\n\nThe deal didn't just stall. It vanished. There was no one else who knew us, trusted us, or had any reason to push the decision forward. Six months of work. Gone in a week.\n\nWhen I debriefed with him, he said: "I thought I had a great relationship."\n\n"You did," I told him. "With one person. In a company of four hundred."`,
+    insight: `Single-threaded deals are the most common reason good reps lose deals they should win. You build a relationship with one person, and you mistake that relationship for pipeline.\n\nIn complex B2B sales, the person you talk to is almost never the person who decides. There's a buying committee — and if you're not known to most of them, you're not really in the deal. You're just in a conversation.`,
+    rule: "A deal with one contact is not a deal. It's a conversation with an expiration date.",
+    ruleSub: "Multi-threading isn't aggressive. It's professional. Top performers map the full buying committee in the first thirty days of a deal — before anyone asks them to.",
+    actions: [
+      "List your top five open deals. For each one, write down every person at that company you've spoken to directly.",
+      "For any deal where the answer is one person — flag it. That deal is at risk.",
+      "In your next call with that contact, ask: 'As we move toward a decision, who else in your organization typically weighs in on something like this?'"
+    ],
+    actionNote: "You're not asking to go around them. You're asking them to help you help them. Frame it that way and they'll give you the map.",
+    quiz: {
+      question: "A rep has a strong relationship with a director who is enthusiastic about the product. What's the biggest risk?",
+      options: [
+        "The director might negotiate too hard on price",
+        "The rep hasn't multi-threaded and is fully dependent on one contact",
+        "The product demo hasn't been tailored to the director's team",
+        "The deal timeline is too aggressive"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Correct. One enthusiastic contact feels like momentum — but it's fragile. If that person leaves, goes quiet, or loses internal influence, the deal collapses. Multi-threading is how you protect six months of work.",
+      wrongFeedback: "The real risk is single-threading. One contact, no matter how enthusiastic, is a single point of failure. Multi-threading the deal protects everything you've built."
+    }
+  },
+  {
+    id: 12,
+    module: 2,
+    day: 12,
+    title: "Who actually decides",
+    subtitle: "Mapping the four roles that exist in every buying committee",
+    story: `Sara had been in sales for four years when she came to me with a deal she couldn't figure out. She had three people engaged — a VP of Sales, an IT director, and a procurement manager. All of them were asking questions. None of them were moving.\n\n"Who's the economic buyer?" I asked.\n\nShe stared at me. "I thought it was the VP."\n\n"Does the VP control the budget?"\n\nShe didn't know. She'd never asked. Turned out the budget sat with the CFO — someone she'd never spoken to, who didn't know her name, and who would ultimately sign or kill the deal.\n\nShe'd been selling to the audience. Not the decision-maker.`,
+    insight: `Every buying committee has four roles. The same person can play more than one, but every role exists in every deal:\n\n1. Economic Buyer — controls the budget and has final say. This is the person you must reach.\n2. Champion — wants you to win and will sell internally on your behalf.\n3. Influencer — has an opinion that matters but doesn't decide.\n4. Blocker — has a reason to want you to lose. Every deal has at least one.\n\nIf you don't know who's playing each role, you're navigating blind.`,
+    rule: "Map all four roles before your third meeting. Every meeting after that should be building or protecting your position with each one.",
+    ruleSub: "The economic buyer is the one role reps most often skip. They focus on the champion because it's comfortable. The champion can't save a deal the economic buyer kills.",
+    actions: [
+      "For your top open deal, draw a simple map: list every stakeholder and write their role next to their name.",
+      "Identify anyone playing the Blocker role — even if you're not sure. Assume one exists.",
+      "Identify who you haven't spoken to yet who likely has influence. That's your outreach list for this week."
+    ],
+    actionNote: "You don't need a perfect map. You need a working one. Update it after every call.",
+    quiz: {
+      question: "You've been working with a VP of Sales for two months. The deal stalls. You learn the CFO controls the budget. What happened?",
+      options: [
+        "The VP of Sales misled you about their authority",
+        "You failed to identify and reach the economic buyer early enough",
+        "The deal needed a better business case for the VP",
+        "Procurement got involved too late"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. The economic buyer — the person who controls budget and has final say — was never identified or engaged. The VP was an influencer, not a decision-maker. This is the most common reason complex deals stall.",
+      wrongFeedback: "The issue is the economic buyer was never identified. The CFO controlled the budget and had never been engaged. Selling to influencers without reaching the economic buyer is the most expensive mistake in complex sales."
+    }
+  },
+  {
+    id: 13,
+    module: 2,
+    day: 13,
+    title: "How to reach the economic buyer",
+    subtitle: "The approach that gets you into the room without burning your champion",
+    story: `The most common mistake reps make when they learn about economic buyers is this: they try to go around their champion to get there.\n\nI watched a rep send a cold LinkedIn message to a CFO while simultaneously working with that CFO's direct report as his champion. The champion found out. The deal died the next day.\n\n"I was just trying to get to the right person," the rep told me.\n\n"You got there," I said. "Just not the way that works."`,
+    insight: `The economic buyer is rarely accessible to you directly — at least not at first. The path to them runs through your champion. Your champion is the bridge, and burning it to shortcut the process is one of the costliest mistakes in complex sales.\n\nThe right approach is to ask your champion to bring the economic buyer in — and to give your champion a reason to do it that makes them look good, not threatened.`,
+    rule: "Always reach the economic buyer through your champion, never around them.",
+    ruleSub: "The ask that works: 'At some point in deals like this, it helps to have a brief conversation with whoever owns the budget — just to make sure we're solving the right problem at the right level. Is that something you'd be comfortable arranging?'",
+    actions: [
+      "Identify the economic buyer in your top open deal.",
+      "If you haven't met them, draft the ask above — tailored to your deal — and send it to your champion this week.",
+      "If your champion resists, that's a signal worth understanding. Ask them: 'Is there a reason that wouldn't work?'"
+    ],
+    actionNote: "A champion who won't introduce you to the economic buyer is either not as strong as you think, or protecting their own position. Both are worth knowing now.",
+    quiz: {
+      question: "Your champion is a director. You know the CFO controls the budget. What's the right move?",
+      options: [
+        "Email the CFO directly with a business case",
+        "Ask your champion to arrange an introduction to the CFO",
+        "Wait until the director brings the CFO in naturally",
+        "Request a multi-stakeholder demo and invite the CFO yourself"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Right. The path to the economic buyer runs through your champion. Asking them to arrange an introduction respects the relationship, protects their position, and gets you where you need to be.",
+      wrongFeedback: "Going directly to the CFO without your champion's knowledge risks the most important relationship in the deal. The right move is to ask your champion to make the introduction — framing it as something that will help them look prepared and thorough."
+    }
+  },
+  {
+    id: 14,
+    module: 2,
+    day: 14,
+    title: "Building a real champion",
+    subtitle: "The difference between someone who likes you and someone who will fight for you",
+    story: `I used to think a champion was someone who answered my calls and said nice things about the product. I was wrong.\n\nI learned the difference the hard way. I had a contact at a prospect who loved our product, came to every meeting, and told me weekly that things were looking good. Then the internal committee met without me. My contact said nothing when the CFO raised budget concerns. Said nothing when a competitor was brought up. Walked out of the room and sent me an email saying the deal had been put on hold.\n\nHe was a fan. Not a champion. Fans like you. Champions fight for you.`,
+    insight: `A real champion has three things:\n\n1. They have a personal stake in the outcome — solving this problem helps their career, their team, or their numbers.\n2. They have credibility inside the organization — people listen to them in rooms you're not in.\n3. They are willing to spend political capital on your behalf — they'll push when pushed back on.\n\nIf your contact has all three, you have a champion. If they have one or two, you have a supporter. Supporters lose deals in committee.`,
+    rule: "Test your champion before you depend on them.",
+    ruleSub: "Ask them to do something small that requires internal effort — set up a meeting with another stakeholder, share a document with their VP, get you thirty minutes with finance. How they respond tells you everything.",
+    actions: [
+      "Identify who you're relying on as a champion in your top deal.",
+      "Ask yourself honestly: do they have a personal stake, internal credibility, and willingness to spend political capital?",
+      "Give them a small test this week. Ask them to arrange one internal action on your behalf. Watch what happens."
+    ],
+    actionNote: "If they can't do something small, they won't do something hard. Find that out now, not at the finish line.",
+    quiz: {
+      question: "Your contact responds to every email, praises your product, but goes quiet when internal objections arise. What are they?",
+      options: [
+        "A strong champion who needs more information to defend the deal",
+        "A fan — someone who likes the product but won't fight for it internally",
+        "A blocker in disguise",
+        "An influencer who needs to be converted to a champion"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. A fan engages with you but goes quiet under pressure. A real champion uses their credibility and political capital to defend the deal when you're not in the room. You need the second type.",
+      wrongFeedback: "This person is a fan, not a champion. They like the product and like you — but when internal pressure hits, they don't fight. A champion is someone who will spend political capital on your behalf. That's the test."
+    }
+  },
+  {
+    id: 15,
+    module: 2,
+    day: 15,
+    title: "The blocker you're ignoring",
+    subtitle: "How to identify and neutralize the person working against you",
+    story: `Every deal has one. The person who doesn't return your emails. The stakeholder who asks skeptical questions in every group call. The IT lead who keeps raising security concerns that seem designed to delay rather than resolve.\n\nI once had a deal where the blocker was the CFO's executive assistant. Nobody took her seriously. She controlled the CFO's calendar and had strong opinions about vendors. She'd been burned by a similar product two years earlier and told everyone who would listen.\n\nWe found out six weeks too late. By then she'd shaped the CFO's opinion in ways we couldn't undo.\n\nYou ignore blockers at your own risk.`,
+    insight: `Blockers aren't always obvious, and they're rarely malicious. Most blockers have a reason for their position — a past experience, a competing priority, a loyalty to an incumbent vendor, or a fear that your solution makes their role less important.\n\nThe mistake is ignoring them hoping they'll stay quiet. They won't. The right move is to identify them early and understand their objection — because an objection you understand is one you can address.`,
+    rule: "Name every blocker in your deal. An unnamed blocker is an unmanaged risk.",
+    ruleSub: "Ask your champion directly: 'Is there anyone internally who might have concerns about moving forward with us?' A good champion will tell you. What they say — and how they say it — tells you a great deal about your position.",
+    actions: [
+      "For your top deal, ask yourself: who has been unusually quiet, skeptical, or slow to engage?",
+      "Ask your champion the question above. Write down exactly what they say.",
+      "For each blocker you identify, write down one hypothesis about why they might be opposed — and one thing you could do to address it."
+    ],
+    actionNote: "You may not be able to convert every blocker. But you can contain them. Knowing they exist is the first step.",
+    quiz: {
+      question: "An IT director keeps raising new security questions every time you answer the last ones. What's likely happening?",
+      options: [
+        "Your product has genuine security gaps that need to be addressed",
+        "The IT director is doing their job thoroughly",
+        "The IT director may be a blocker using technical questions as cover",
+        "You need to bring in your security team to handle the objections"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Correct. When objections keep multiplying after each answer, the issue usually isn't the answers — it's the intent behind the questions. A blocker uses legitimate-sounding concerns as delay tactics. Identify it, then address the real concern.",
+      wrongFeedback: "Perpetually regenerating objections are often a sign of a blocker. The questions are real, but they're not the real issue. Ask your champion what's actually going on with the IT director. The answer will tell you whether this is diligence or resistance."
+    }
+  },
+  {
+    id: 16,
+    module: 2,
+    day: 16,
+    title: "The internal meeting you'll never attend",
+    subtitle: "How to influence a decision made in a room you're not invited into",
+    story: `Here's what nobody tells you about complex sales: the most important meeting in your deal is one you'll never be in.\n\nIt's the internal committee review. The budget discussion. The vendor comparison session. The conversation between the CFO and the VP after your presentation.\n\nEvery rep knows these meetings happen. Almost no rep prepares for them specifically.\n\nThe ones who do win a disproportionate number of deals.`,
+    insight: `You can't attend the internal meeting. But you can shape everything that happens in it — if you've done the work before it starts.\n\nThree things determine what happens in that room:\n\n1. What your champion says — and how prepared they are to say it\n2. What materials they have in hand — one-pagers, business cases, comparison frameworks\n3. What objections come up — and whether your champion has answers ready\n\nYour job in the two weeks before any major internal meeting is to prepare your champion for every scenario they'll face.`,
+    rule: "Treat your champion's internal meeting like it's your most important sales call. Prepare for it that way.",
+    ruleSub: "Ask your champion: 'What questions do you think will come up in that meeting?' Then build the answers together. When they walk in with your arguments in their own words, you've done your job.",
+    actions: [
+      "Find out when your champion's next internal review or budget discussion is.",
+      "Ask them: 'What objections do you think will come up?' Write down every answer.",
+      "For each objection, give them a one or two sentence response they can deliver naturally. Practice it with them if they're open to it."
+    ],
+    actionNote: "The champion who walks into that room feeling prepared is ten times more effective than the one who wings it. You're the reason they're prepared.",
+    quiz: {
+      question: "Your champion says their internal review is in two weeks. What's the most valuable thing you can do right now?",
+      options: [
+        "Send them your full product deck to share with the committee",
+        "Ask them what objections they expect and prepare responses together",
+        "Request to join the meeting as a subject matter expert",
+        "Send a personalized email to every committee member"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly right. The most valuable preparation is objection-based. Ask what's coming, build the answers together, and arm your champion to handle every scenario without you. That's how you win rooms you can't enter.",
+      wrongFeedback: "The most valuable thing you can do is prepare your champion for the objections they'll face. A product deck doesn't help them when the CFO asks a hard question. Answers they've practiced do."
+    }
+  },
+  {
+    id: 17,
+    module: 2,
+    day: 17,
+    title: "The 'I need to run this by my team' stall",
+    subtitle: "What it really means and how to respond without pushing them away",
+    story: `"I need to run this by my team" is the most common stall in complex sales. Most reps hear it and say "of course, let me know what they think."\n\nThat's the wrong answer. Not because it's impolite — because it's passive. You've just handed control of your deal to a room you've never been in, filled with people who don't know you, armed with nothing.\n\nI spent the first two years of my career saying "of course." I spent the next ten figuring out that the right response to that sentence is a question, not an answer.`,
+    insight: `"I need to run this by my team" can mean several different things:\n\n- "I'm genuinely interested but don't have final authority" — you need to help them sell it internally\n- "I'm not convinced yet and I'm using my team as cover" — you have a value gap to close\n- "I like it but I'm afraid to stick my neck out" — you have a champion confidence problem\n\nThe only way to know which one it is — and respond to the right one — is to ask a clarifying question before you say anything else.`,
+    rule: "Never accept 'I need to run this by my team' without understanding what that process looks like.",
+    ruleSub: "Ask: 'Of course — can you walk me through how that process typically works and what they'll need to feel confident?' That one question tells you whether you have a champion, a stall, or a value gap.",
+    actions: [
+      "Think of the last time you heard 'I need to run this by my team.' How did you respond?",
+      "Write down what you would ask next time using the framework above.",
+      "In your current pipeline, identify any deal where you're waiting on an internal process you don't fully understand. That's a deal to re-engage this week."
+    ],
+    actionNote: "The goal isn't to pressure them. It's to understand the process well enough to support it. There's a big difference — and your contact will feel it.",
+    quiz: {
+      question: "A prospect says 'this looks good — I just need to run it by my leadership team.' What do you do?",
+      options: [
+        "Thank them and ask them to let you know what their team thinks",
+        "Ask if you can join the leadership meeting to answer questions",
+        "Ask how that process works and what their leadership team will need to feel confident",
+        "Send a follow-up email summarizing the key benefits for the leadership team"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. You need to understand the internal process before you can support it. Asking how it works and what they'll need tells you whether you have a champion who's ready, a value gap to close, or a process to navigate.",
+      wrongFeedback: "Waiting passively hands control of your deal to people you've never met. The right move is to understand the process — ask how it works and what the leadership team will need to feel confident. Then you can actually help."
+    }
+  },
+  {
+    id: 18,
+    module: 2,
+    day: 18,
+    title: "Selling to people who don't want to meet you",
+    subtitle: "How to create value for stakeholders who never agreed to be sold to",
+    story: `Not every stakeholder in a buying committee wants to talk to you. Some of them were added to the evaluation because their role requires it. Some of them have already formed an opinion. Some of them are busy and skeptical and have seen a hundred reps just like you.\n\nI once had a CTO who made it clear in the first ten minutes of our first meeting that he didn't want to be there. He'd been asked to validate the technical fit. He had forty-five minutes and no patience.\n\nI stopped my prepared agenda and asked him one question: "What would make this a waste of your time?"\n\nHe paused. Then he told me exactly what he needed to see. We covered it in thirty minutes. He became our strongest internal advocate.`,
+    insight: `Reluctant stakeholders are not lost causes. They're people who haven't been given a reason to engage yet. The mistake is treating them like a standard sales audience — walking through your deck, telling your story, asking for their buy-in.\n\nThe right approach is to flip the dynamic immediately. Ask them what they need. Let them set the agenda. Give them control of the meeting and then deliver against it. A stakeholder who gets what they came for is a stakeholder who has a reason to support you.`,
+    rule: "For every reluctant stakeholder, lead with a question — not a presentation.",
+    ruleSub: "'What would make this meeting valuable for you?' is the most disarming question in complex sales. Use it every time you're in a room with someone who didn't ask to be there.",
+    actions: [
+      "Identify one stakeholder in your current pipeline who seems disengaged or reluctant.",
+      "Prepare one opening question for your next interaction with them — not a pitch, a genuine question about what they need.",
+      "After the meeting, note whether the dynamic shifted. Reluctant stakeholders who feel heard almost always move toward neutral or positive."
+    ],
+    actionNote: "You don't need every stakeholder to love you. You need them to not block you. Feeling heard is usually enough.",
+    quiz: {
+      question: "A VP joins a call and immediately says 'I only have thirty minutes and I'm not sure why I'm here.' What's your first move?",
+      options: [
+        "Quickly summarize why the meeting was set up and what you hope to cover",
+        "Ask them what would make the thirty minutes valuable for them",
+        "Jump to the most relevant part of your deck to respect their time",
+        "Acknowledge their time constraint and promise to be brief"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly right. When a stakeholder signals reluctance, the worst thing you can do is push your agenda. Ask them what they need. Let them tell you. Then deliver it. That's how reluctant stakeholders become neutral ones — and sometimes advocates.",
+      wrongFeedback: "Pushing your agenda when someone signals they don't want to be there makes it worse. Ask them what would make the meeting valuable for them. That question resets the dynamic and gives you a fighting chance."
+    }
+  },
+  {
+    id: 19,
+    module: 2,
+    day: 19,
+    title: "When the committee goes quiet",
+    subtitle: "How to re-engage a buying committee that has stopped responding",
+    story: `A rep on my team had a deal that went dark. Three weeks of silence after what seemed like a great final presentation. Every follow-up went unanswered. He was ready to mark it closed-lost.\n\n"Before you do that," I told him, "send one more email. But not a follow-up. A breakup."\n\nHe looked at me like I'd lost my mind.\n\nHe sent it. The VP responded within four hours. Turns out the deal had been delayed by an internal reorg — had nothing to do with us. They signed six weeks later.\n\nSilence is not always rejection. But it always requires a different kind of response.`,
+    insight: `When a buying committee goes quiet, it usually means one of three things:\n\n1. An internal event — reorg, budget freeze, leadership change — has put decisions on hold\n2. A blocker has gained influence and is quietly killing the deal\n3. They're evaluating another option and don't want to tell you\n\nStandard follow-ups don't work in any of these scenarios because they assume the problem is information. The real problem is momentum — or the loss of it.\n\nThe re-engagement that works is the one that creates a response, even a negative one. Knowing where you stand is always more valuable than silence.`,
+    rule: "After three unanswered follow-ups, stop following up. Send a pattern-interrupt instead.",
+    ruleSub: "The breakup email: 'I want to be respectful of your time. If priorities have shifted and this isn't the right moment, I completely understand — just let me know and I'll close out my side. If it's still live, I'd love to find fifteen minutes to reconnect.' Short. No pressure. Requires a response.",
+    actions: [
+      "Identify any deal in your pipeline that has gone quiet for more than two weeks.",
+      "Count how many follow-ups you've sent. If it's three or more with no response, stop.",
+      "Send the breakup email above — adapted to your deal — and see what comes back."
+    ],
+    actionNote: "A 'no' now is worth more than a 'maybe' that never converts. Clear your pipeline and spend your time on deals that are real.",
+    quiz: {
+      question: "A prospect went silent after a strong final presentation. You've followed up three times. What should you do?",
+      options: [
+        "Send one more detailed follow-up summarizing your key differentiators",
+        "Call their main switchboard and ask to be transferred",
+        "Mark it closed-lost and move on",
+        "Send a short breakup email that gives them permission to say no"
+      ],
+      correctIndex: 3,
+      correctFeedback: "Right. After three unanswered follow-ups, more of the same won't work. The breakup email changes the dynamic — it removes pressure and requires a response. Most of the time you'll find out what's actually happening.",
+      wrongFeedback: "More follow-ups won't break the silence. The breakup email works because it changes the dynamic entirely — it removes pressure, invites honesty, and almost always produces a response. That response tells you where you actually stand."
+    }
+  },
+  {
+    id: 20,
+    module: 2,
+    day: 20,
+    title: "The committee win: putting it all together",
+    subtitle: "You now know how to navigate the room that decides your deals",
+    story: `Most reps lose deals in committee not because their product loses — but because they were only known to one person in the room.\n\nThe economic buyer didn't know them. The blocker was never addressed. The champion walked in unprepared. The internal meeting happened without a business case in hand.\n\nEvery one of those failures is preventable. Not with luck or timing or a better product. With process.\n\nYou now have the process.`,
+    insight: `Buying committees are not obstacles. They're the actual sales motion in complex B2B deals. The rep who learns to navigate them — who maps the stakeholders, builds the champion, reaches the economic buyer, neutralizes the blocker, and prepares for the room they'll never be in — wins a fundamentally different category of deal.\n\nNot just bigger deals. More predictable deals. Deals that don't collapse in the final week because someone you'd never met decided they didn't want to move forward.`,
+    rule: "Map the committee. Build the champion. Reach the economic buyer. Contain the blocker. Prepare for the room you'll never enter.",
+    ruleSub: "This is the full framework for Module 2. Every lesson in this module is a tool. Used together, they give you more control over complex deals than most reps will ever have.",
+    actions: [
+      "Go back to your top open deal and apply the full module framework: Who is the economic buyer? Who is the champion? Who is the blocker? Have you multi-threaded?",
+      "Identify the single biggest gap in your position on that deal — the thing that, if it stays unaddressed, could cost you the deal.",
+      "Take one action on that gap today. Not this week. Today."
+    ],
+    actionNote: "Module 3 unlocks tomorrow. It goes deeper into discovery — finding the pain nobody else finds, in the conversations most reps don't know how to have.",
+    quiz: {
+      question: "Which combination represents the full buying committee framework from this module?",
+      options: [
+        "Strong champion + competitive pricing + executive sponsor + fast close",
+        "Multi-threaded + economic buyer reached + blocker identified + champion prepared for internal meeting",
+        "Product fit confirmed + legal review complete + procurement engaged + timeline agreed",
+        "Demo completed + business case sent + follow-ups logged + decision date confirmed"
+      ],
+      correctIndex: 1,
+      correctFeedback: "That's the framework. Multi-threaded across the committee, economic buyer engaged, blocker identified and addressed, champion prepared to win the room you'll never be in. That's how complex deals get won.",
+      wrongFeedback: "The buying committee framework is: multi-thread early, identify and reach the economic buyer, name and address the blocker, and prepare your champion for the internal meeting. Everything else supports that foundation."
+    }
   }
 ]
 
