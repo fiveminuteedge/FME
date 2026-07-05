@@ -9,7 +9,6 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const [success, setSuccess] = useState('')
   const router = useRouter()
   const supabase = createClient()
 
@@ -19,19 +18,29 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
     setError('')
 
     if (mode === 'signup') {
-      const { error } = await supabase.auth.signUp({
-        email,
-        password,
-        
+      // Store credentials temporarily then redirect to Stripe
+      sessionStorage.setItem('signup_email', email)
+      sessionStorage.setItem('signup_password', password)
+
+      const res = await fetch('/api/create-checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
       })
-      if (error) setError(error.message)
-      else setSuccess('Check your email to confirm your account.')
+
+      const data = await res.json()
+      if (data.url) {
+        window.location.href = data.url
+      } else {
+        setError('Something went wrong. Please try again.')
+        setLoading(false)
+      }
     } else {
       const { error } = await supabase.auth.signInWithPassword({ email, password })
       if (error) setError(error.message)
       else router.push('/dashboard')
+      setLoading(false)
     }
-    setLoading(false)
   }
 
   return (
@@ -46,52 +55,46 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
             {mode === 'signup' ? 'Start your free trial' : 'Welcome back'}
           </h1>
           <p className="text-sm text-blue-300 mb-6">
-            {mode === 'signup' ? '7 days free, no card required.' : 'Sign in to continue your streak.'}
+            {mode === 'signup' ? '3 days free, then $19/month. Cancel anytime.' : 'Sign in to continue your streak.'}
           </p>
 
-          {success ? (
-            <div className="bg-green-500/10 border border-green-500/25 rounded-lg p-4 text-green-300 text-sm">
-              {success}
+          <form onSubmit={handle} className="space-y-4">
+            <div>
+              <label className="block text-sm text-blue-300 mb-1.5">Email</label>
+              <input
+                type="email"
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+                required
+                className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
+                placeholder="you@company.com"
+              />
             </div>
-          ) : (
-            <form onSubmit={handle} className="space-y-4">
-              <div>
-                <label className="block text-sm text-blue-300 mb-1.5">Email</label>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={e => setEmail(e.target.value)}
-                  required
-                  className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
-                  placeholder="you@company.com"
-                />
-              </div>
-              <div>
-                <label className="block text-sm text-blue-300 mb-1.5">Password</label>
-                <input
-                  type="password"
-                  autoCapitalize="none"
-                  autoCorrect="off"
-                  value={password}
-                  onChange={e => setPassword(e.target.value)}
-                  required
-                  minLength={6}
-                  className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
-                  placeholder="••••••••"
-                />
-              </div>
+            <div>
+              <label className="block text-sm text-blue-300 mb-1.5">Password</label>
+              <input
+                type="password"
+                autoCapitalize="none"
+                autoCorrect="off"
+                value={password}
+                onChange={e => setPassword(e.target.value)}
+                required
+                minLength={6}
+                className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
+                placeholder="••••••••"
+              />
+            </div>
 
-              {error && (
-                <div className="bg-red-500/10 border border-red-500/25 rounded-lg p-3 text-red-300 text-sm">
-                  {error}
-                </div>
-              )}
+            {error && (
+              <div className="bg-red-500/10 border border-red-500/25 rounded-lg p-3 text-red-300 text-sm">
+                {error}
+              </div>
+            )}
 
-              <button type="submit" disabled={loading} className="btn-primary w-full">
-                {loading ? 'Please wait...' : mode === 'signup' ? 'Create account' : 'Sign in'}
-              </button>
-            </form>
-          )}
+            <button type="submit" disabled={loading} className="btn-primary w-full">
+              {loading ? 'Redirecting to checkout...' : mode === 'signup' ? 'Start free trial' : 'Sign in'}
+            </button>
+          </form>
         </div>
 
         <p className="text-center text-sm text-blue-400 mt-4">
