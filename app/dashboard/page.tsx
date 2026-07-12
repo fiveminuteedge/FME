@@ -91,7 +91,7 @@ export default function DashboardPage() {
         {/* Progress bar */}
         <div className="mb-10">
           <div className="flex justify-between text-xs text-blue-400 mb-2">
-            <span>Module 1 — The Value Mindset</span>
+            <span>FiveMinuteEdge — 60 Lessons across 6 Modules</span>
             <span>{completedCount} / {lessons.length} lessons</span>
           </div>
           <div className="h-1.5 bg-white/8 rounded-full overflow-hidden">
