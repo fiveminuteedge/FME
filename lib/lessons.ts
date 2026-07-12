@@ -599,6 +599,296 @@ export const lessons: Lesson[] = [
       correctFeedback: "That's the framework. Multi-threaded across the committee, economic buyer engaged, blocker identified and addressed, champion prepared to win the room you'll never be in. That's how complex deals get won.",
       wrongFeedback: "The buying committee framework is: multi-thread early, identify and reach the economic buyer, name and address the blocker, and prepare your champion for the internal meeting. Everything else supports that foundation."
     }
+  },
+    {
+    id: 21,
+    module: 3,
+    day: 21,
+    title: "The question nobody asks",
+    subtitle: "Why most discovery stops at the surface — and how to go deeper",
+    story: `I was sitting in on a discovery call with one of my reps. She was good — thorough, organized, asked all the right questions from the playbook. She covered current process, pain points, timeline, budget. Forty-five minutes in, she wrapped up and said "great, I think I have everything I need."\n\nAfter the call I asked her one question: "Do you know what happens to that VP's career if this problem doesn't get solved?"\n\nShe stared at me.\n\n"That's the question nobody asked," I told her. "And it's the one that tells you whether this deal is real."`,
+    insight: `Most discovery is surface-level because reps are trained to gather information, not uncover stakes. They ask what the problem is. They rarely ask what it costs if the problem stays unsolved — not just in dollars, but in careers, relationships, and organizational consequences.\n\nThe deeper you go in discovery, the more leverage you have in every conversation that follows. Pain that has personal stakes attached is pain that drives decisions. Pain that's merely operational gets deprioritized.`,
+    rule: "Great discovery uncovers what's at stake personally, not just operationally.",
+    ruleSub: "Ask about the business problem. Then ask what happens to the people responsible for it if it doesn't get fixed. That second question changes everything.",
+    actions: [
+      "In your next discovery call, after identifying the core business problem, ask: 'What happens internally if this doesn't get resolved in the next six months?'",
+      "Then ask: 'Who owns this problem — and how does it affect them personally?'",
+      "Write down the answers. If the answer to the second question is 'not much,' you have a low-urgency deal. If the answer is 'it's a serious issue for them,' you have a real one."
+    ],
+    actionNote: "The personal stakes question feels uncomfortable the first few times. Do it anyway. The answers will change how you sell.",
+    quiz: {
+      question: "After identifying a business problem in discovery, what's the most important follow-up question?",
+      options: [
+        "What's your timeline for solving this?",
+        "What budget have you allocated for this?",
+        "What happens internally if this doesn't get resolved?",
+        "Who else is involved in evaluating solutions?"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly right. Timeline and budget matter — but stakes matter more. Understanding what happens if the problem stays unsolved tells you how motivated the organization is to actually move. That's the question that separates real deals from conversations.",
+      wrongFeedback: "Timeline and budget are important but they come later. The question that changes everything is: what happens if this doesn't get fixed? That answer tells you the real urgency — and whether this deal will ever actually close."
+    }
+  },
+  {
+    id: 22,
+    module: 3,
+    day: 22,
+    title: "The three levels of pain",
+    subtitle: "How to move from symptoms to causes to consequences",
+    story: `A rep on my team came to me with a deal he was excited about. "They have a huge problem with their reporting," he told me. "It takes their team three days to produce a report that should take three hours."\n\n"That's a symptom," I said. "What's causing it?"\n\nHe didn't know. We went back in together. The root cause turned out to be five disconnected systems that didn't talk to each other — a problem that had been growing for three years and had survived two previous attempts to fix it.\n\nNow we weren't selling a reporting tool. We were selling a solution to a systemic data problem that had beaten two other vendors. Completely different deal. Completely different price.`,
+    insight: `Every problem has three levels:\n\n1. The symptom — what the prospect complains about ("our reporting takes too long")\n2. The root cause — why the symptom exists ("five disconnected systems")\n3. The consequence — what the root cause is doing to the business ("we can't make decisions fast enough to compete")\n\nMost reps sell to the symptom. Top performers dig to the root cause and sell to the consequence. The deeper you go, the more valuable your solution becomes — and the harder it is to replace you with a cheaper alternative.`,
+    rule: "Never sell to a symptom when you can sell to the root cause.",
+    ruleSub: "The question that moves you from symptom to cause: 'How long has this been happening, and what have you tried before?' The answer to that question tells you the depth of the problem — and why previous solutions failed.",
+    actions: [
+      "Take your best active deal. Write down the problem as the prospect described it to you.",
+      "Now ask yourself: is that a symptom or a root cause? If it's a symptom, what's causing it?",
+      "In your next call, ask: 'How long has this been a problem, and have you tried to solve it before? What happened?'"
+    ],
+    actionNote: "A problem that has survived previous solution attempts is a problem worth a lot of money to solve. Find those deals and go deep.",
+    quiz: {
+      question: "A prospect says 'our sales team spends too much time on manual data entry.' What's the right response?",
+      options: [
+        "Explain how your product automates data entry",
+        "Ask how many hours per week are lost to manual entry",
+        "Ask how long this has been a problem and what they've tried before",
+        "Share a case study of a customer with a similar problem"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. 'How long has this been a problem and what have you tried?' moves you from symptom to root cause. The answer tells you the depth of the problem, why previous solutions failed, and what you're really selling against.",
+      wrongFeedback: "Jumping to your solution or quantifying the symptom is premature. The right move is to find the root cause first. Ask how long it's been happening and what they've tried — those answers tell you what you're actually selling against."
+    }
+  },
+  {
+    id: 23,
+    module: 3,
+    day: 23,
+    title: "What they won't tell you in the first meeting",
+    subtitle: "The information that only comes out after trust is established",
+    story: `There's a piece of information in almost every deal that doesn't come out in the first meeting. Sometimes not the second. It's the thing the prospect is embarrassed about, worried will make them look bad, or simply doesn't think is relevant to tell you.\n\nI once worked a deal for four months where the prospect kept saying everything was fine internally. No objections, great alignment. Then in week sixteen, their champion told me something she'd never mentioned: there was a senior leader who had been burned by a similar vendor three years ago and was quietly lobbying against any new purchase in this category.\n\nWe'd been selling into a headwind we didn't know existed. We lost the deal two weeks later.\n\nThe information was always there. Nobody asked the right question to surface it.`,
+    insight: `Trust unlocks information that politeness conceals. In the first meeting, prospects tell you what they want you to know. In subsequent meetings — when they trust you — they tell you what's actually happening.\n\nYour job is to build trust fast enough that the real story comes out before it's too late to act on it. That means asking questions that feel slightly uncomfortable, sharing relevant vulnerabilities of your own, and demonstrating that you can handle difficult information without using it against them.`,
+    rule: "The real discovery happens in the second and third conversations, not the first.",
+    ruleSub: "After your second meeting, ask your champion: 'Is there anything going on internally that might affect this decision that I should know about?' Most reps never ask this. The ones who do rarely get surprised late in a deal.",
+    actions: [
+      "Identify a deal where you're two or more meetings in.",
+      "Ask your champion directly: 'Is there anything going on internally around this decision that I should know about — anything that could make this harder to move forward?'",
+      "Write down exactly what they say. If they hesitate before answering, that hesitation is information too."
+    ],
+    actionNote: "This question only works if you've built enough trust for them to answer honestly. If they say 'no, everything's fine' too quickly, you may not have that trust yet.",
+    quiz: {
+      question: "You're three meetings into a deal and things seem to be going well. What question should you ask your champion?",
+      options: [
+        "Are you still on track for a decision by end of quarter?",
+        "Is there anything going on internally that could affect this decision that I should know about?",
+        "Have you had a chance to share the business case with your leadership?",
+        "What would it take to get this across the finish line?"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. This question surfaces the hidden information that derails deals at the finish line. Most reps never ask it. The ones who do consistently avoid late-stage surprises — because the surprises were always there, just unasked.",
+      wrongFeedback: "Timeline and next steps matter, but the question that protects your deal is the one that surfaces hidden risks. After three meetings, ask your champion directly if there's anything going on internally you should know about. That question changes the trajectory of more deals than any other."
+    }
+  },
+  {
+    id: 24,
+    module: 3,
+    day: 24,
+    title: "The power of silence",
+    subtitle: "Why the best discovery move is often saying nothing",
+    story: `I used to fill every pause in a discovery call. A prospect would finish answering a question and if they stopped talking for more than two seconds, I'd ask the next question. I thought I was being efficient. I was actually cutting off the most important part of the conversation.\n\nMy manager sat in on a call and gave me one piece of feedback afterward: "You interrupted the three best answers of the call. They were about to go deeper and you stopped them."\n\nI started counting to five after every answer before saying anything. The deals I was working changed within a month. Prospects started telling me things I'd never heard before — not because they were new things, but because I'd finally stopped talking long enough to hear them.`,
+    insight: `Silence is the most underused tool in discovery. When a prospect finishes answering a question, the instinct is to move on. The reality is that the most valuable information often comes in the pause after the first answer — when the prospect is deciding whether to tell you the thing they were about to say before you interrupted.\n\nA five-second pause after an answer signals that you're listening, that you're not in a rush, and that you have the confidence not to fill every moment with noise. That signal alone builds more trust than most discovery techniques.`,
+    rule: "Count to five after every answer before you speak. The best information lives in that pause.",
+    ruleSub: "If the silence feels uncomfortable, it's working. Discomfort in a pause means something real is about to be said. Let it come.",
+    actions: [
+      "In your next discovery call, set a silent rule for yourself: count to three after every answer before speaking.",
+      "Notice how often the prospect starts talking again before you reach three. What they say next is almost always more valuable than what came before.",
+      "After the call, note one piece of information you got because you stayed silent that you would have missed otherwise."
+    ],
+    actionNote: "This is a discipline, not a technique. It takes practice. The first few times will feel awkward. Do it anyway.",
+    quiz: {
+      question: "A prospect finishes answering your question about their biggest challenge. They pause. What do you do?",
+      options: [
+        "Ask your next prepared discovery question",
+        "Summarize what they said to show you were listening",
+        "Stay silent and count to five before speaking",
+        "Transition to explaining how your product addresses that challenge"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. The pause after an answer is where the real information lives. Staying silent signals that you're listening and gives the prospect space to say the thing they were about to say. Most reps never hear it because they move on too fast.",
+      wrongFeedback: "Moving to the next question or pivoting to your solution cuts off the most valuable part of the answer. Stay silent for five seconds after every answer. The prospect will often keep talking — and what they say next is almost always more important than what came before."
+    }
+  },
+  {
+    id: 25,
+    module: 3,
+    day: 25,
+    title: "Finding the trigger",
+    subtitle: "Why prospects buy now — and how to find what changed",
+    story: `Every deal has a trigger — a specific event that caused the prospect to start looking for a solution right now rather than six months ago or six months from now.\n\nI learned to ask for it after losing a deal I was certain we'd won. Post-mortem revealed that the prospect had chosen a competitor not because of features or price, but because that competitor had found out about the trigger event — a board meeting where the CEO had made solving this problem a Q3 priority — and built their entire proposal around it.\n\nWe had the better product. They had the better intelligence. They won because they knew why the prospect was buying now. We never asked.`,
+    insight: `The trigger is the event that changed the timing. A merger. A new executive. A failed audit. A competitor gaining market share. A regulation taking effect. A bad quarter that made the status quo untenable.\n\nWhen you know the trigger, you know the real deadline, the real stakeholder, and the real urgency. You can align your entire sales motion to the event that's driving the decision — which is far more powerful than aligning it to your own quarter-end goals.`,
+    rule: "Always find the trigger. Ask: 'What happened that made this a priority right now?'",
+    ruleSub: "The trigger tells you the real deadline, the real decision-maker, and the real stakes. Without it, you're selling to a generic problem. With it, you're solving a specific crisis.",
+    actions: [
+      "In your next discovery call, ask: 'What happened that made this a priority right now, versus six months ago?'",
+      "For your current top three deals, do you know the trigger? If not, find out this week.",
+      "Once you know the trigger, ask: 'Is there a specific date or event that makes solving this by a certain time critical?'"
+    ],
+    actionNote: "The trigger is rarely volunteered. You have to ask for it directly. When you find it, everything about the deal gets clearer.",
+    quiz: {
+      question: "A prospect says they're looking to solve their data integration problem 'sometime this year.' What do you ask?",
+      options: [
+        "What's your ideal timeline for implementation?",
+        "What happened that made this a priority right now versus six months ago?",
+        "Have you looked at any other solutions yet?",
+        "What does your budget cycle look like?"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. 'Sometime this year' is vague. The trigger question — what happened that made this a priority now — surfaces the real event driving the decision. That event gives you the real deadline and the real urgency.",
+      wrongFeedback: "Timeline questions confirm vague intentions. The trigger question finds the specific event that changed the timing. 'What happened that made this a priority right now?' is the question that turns a soft opportunity into a real deal."
+    }
+  },
+  {
+    id: 26,
+    module: 3,
+    day: 26,
+    title: "Quantifying pain they haven't measured",
+    subtitle: "How to calculate the cost of a problem your prospect has never put a number on",
+    story: `Most prospects have never calculated what their problem costs them. They know it's painful. They know it's a priority. But they've never sat down and done the math.\n\nThat's your opportunity.\n\nI once worked a deal where the prospect described their problem as "really disruptive." When I asked what it was costing them, they said they'd never actually calculated it. We built the number together on a shared spreadsheet during the call. By the time we were done, we'd calculated $2.3M in annual avoidable cost.\n\nThe prospect stopped the call, called their CFO, and had a conversation I wasn't part of. They came back with a budget that hadn't existed before we started calculating.`,
+    insight: `Pain that has a number attached to it is pain that gets funded. Pain that's described in adjectives — "really bad," "very disruptive," "a major headache" — stays on the priority list forever without ever becoming a purchase order.\n\nYour job is to help prospects calculate what they've never calculated. Not to make up a number — to help them find the number that's already there, hiding in their own data.`,
+    rule: "Help prospects calculate the cost of their problem. Don't estimate it for them — calculate it with them.",
+    ruleSub: "The formula: frequency × impact per occurrence = total cost. Walk them through it. When they do the math themselves, it's their number — and their number is the one that gets funded.",
+    actions: [
+      "For your top open deal, identify the core problem and ask: 'How often does this happen?'",
+      "Then ask: 'When it happens, what does it cost — in time, people, or revenue?'",
+      "Multiply those numbers together on the call. Say the result out loud. Ask: 'Does that match what you'd expect?'"
+    ],
+    actionNote: "Do this on the call, not in a follow-up email. Real-time calculation creates real-time urgency.",
+    quiz: {
+      question: "A prospect says their manual process is 'a real problem' but hasn't quantified it. What do you do?",
+      options: [
+        "Share an industry benchmark for what this type of problem typically costs",
+        "Include an estimated ROI in your proposal based on similar customers",
+        "Walk them through calculating the cost on the call using their own numbers",
+        "Ask them to get their finance team to calculate it before your next meeting"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly right. Their number, calculated in real time, is the number that gets funded. Benchmarks and estimates are yours — they carry a fraction of the weight. Do the math together, on the call, using their data.",
+      wrongFeedback: "Benchmarks and estimates are your numbers. They carry a fraction of the weight of a number the prospect calculates themselves. Walk them through it on the call — frequency times impact equals total cost. Their math, their urgency."
+    }
+  },
+  {
+    id: 27,
+    module: 3,
+    day: 27,
+    title: "The discovery mistake that kills deals",
+    subtitle: "Why pitching during discovery is the most expensive error in complex sales",
+    story: `I used to do it. Every rep I've ever managed has done it. The prospect mentions a problem and before they finish the sentence, you're connecting it to your product.\n\n"Oh, that's exactly what our [feature] solves—"\n\nAnd just like that, discovery is over. The prospect stops sharing because you've signaled that you have what you need. They go into evaluation mode. You've turned a conversation into a pitch thirty minutes too early.\n\nI watched a rep do this in a discovery call last year. The prospect had three problems. We heard one. We pitched to one. We lost to a competitor who discovered all three and built a solution around the full picture.`,
+    insight: `Pitching during discovery is the single most common and most costly mistake in complex sales. It feels productive — you're connecting their pain to your solution in real time. But what it actually does is stop the prospect from telling you more.\n\nThe discipline of discovery is staying in question mode long after you think you have enough information. You almost never have enough. The rep who asks one more question after they think they're done is the rep who finds the third problem — the one that closes the deal.`,
+    rule: "Never pitch during discovery. Stay in question mode until the prospect has nothing left to share.",
+    ruleSub: "When you feel the urge to connect their problem to your product, ask another question instead. 'Tell me more about that' buys you information that pitching gives away.",
+    actions: [
+      "In your next discovery call, set a personal rule: no product mentions until the last ten minutes.",
+      "Every time you feel the urge to pitch, ask 'tell me more about that' instead.",
+      "After the call, note how many additional pieces of information you gathered by staying in question mode longer than you normally would."
+    ],
+    actionNote: "The prospect who feels fully heard before you pitch is the prospect who listens when you do. Sequence matters.",
+    quiz: {
+      question: "A prospect describes a problem that your product solves perfectly. What do you do?",
+      options: [
+        "Explain how your product addresses that exact problem",
+        "Ask a follow-up question to understand the problem more deeply",
+        "Share a case study of a customer with a similar challenge",
+        "Confirm that this is their top priority before moving forward"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Right. Ask a follow-up question. Pitching now stops the discovery. There are almost always more problems to find — and the next one might be the one that actually closes the deal. Stay in question mode.",
+      wrongFeedback: "Pitching the moment you recognize a problem stops discovery cold. The prospect goes into evaluation mode and stops sharing. Ask a follow-up question instead — you almost always have more to learn, and the next problem is often the one that wins the deal."
+    }
+  },
+  {
+    id: 28,
+    module: 3,
+    day: 28,
+    title: "The future state question",
+    subtitle: "How to make the prospect sell themselves on your solution",
+    story: `The most powerful question I ever added to my discovery process wasn't about pain. It was about aspiration.\n\n"If you had this completely solved a year from now, what would be different?"\n\nI started asking this in every discovery call and something unexpected happened: prospects started describing outcomes that went far beyond the problem I'd identified. They talked about what their team could do, what they could report to the board, what competitive advantage they'd have.\n\nThey were describing value I hadn't thought to sell. And they were selling it to themselves.`,
+    insight: `Pain-focused discovery is essential. But discovery that only covers pain misses half the picture. The future state question — what does solved look like? — unlocks the aspirational side of the decision.\n\nWhen a prospect articulates what success looks like in their own words, two things happen: they connect emotionally to the outcome, and they give you the exact language to use in your business case. Their description of success becomes your value proposition — and that's far more persuasive than anything you'd write yourself.`,
+    rule: "Always ask what solved looks like. The prospect's answer becomes your most powerful selling tool.",
+    ruleSub: "Ask: 'If we fast-forward twelve months and this problem is completely behind you, what's different about your business — and about your role?' The second part of that question surfaces the personal stake.",
+    actions: [
+      "In your next discovery call, after exploring the problem, ask: 'If this were completely solved a year from now, what would be different?'",
+      "Write down their exact words. Use their language — not yours — in your follow-up and proposal.",
+      "Ask the personal version too: 'And what does that mean for you specifically in your role?'"
+    ],
+    actionNote: "When prospects describe their own success, they've already bought emotionally. Your job from that point is to make the financial case match the emotional one.",
+    quiz: {
+      question: "After exploring a prospect's pain, what's the most valuable next question?",
+      options: [
+        "What's your budget for solving this?",
+        "Have you looked at any other solutions?",
+        "If this were completely solved a year from now, what would be different?",
+        "What's your timeline for making a decision?"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. The future state question makes the prospect articulate success in their own words. That description becomes your value proposition — and it's infinitely more persuasive coming from them than from you.",
+      wrongFeedback: "Budget and timeline questions are important but they're logistics. The future state question is strategic — it makes the prospect articulate what success looks like in their own words, which becomes the most persuasive content in your entire sales process."
+    }
+  },
+  {
+    id: 29,
+    module: 3,
+    day: 29,
+    title: "Confirming what you heard",
+    subtitle: "The step that separates good discovery from great discovery",
+    story: `I made an assumption once that cost me a $200,000 deal.\n\nThe prospect had described their problem clearly — or so I thought. I built an entire proposal around what I'd heard. When I presented it, the economic buyer stopped me ten minutes in.\n\n"This isn't what we're trying to solve," he said.\n\nI'd misunderstood the core problem. My champion had described it from her perspective. The economic buyer's perspective was different — and the proposal I'd built was solving the wrong one.\n\nAfter that, I added one step to every discovery process: before ending any discovery conversation, I play back what I heard and ask if I got it right.`,
+    insight: `Confirmation is the most skipped step in discovery. Reps gather information and move straight to proposal without checking that they understood correctly. The prospect assumes you understood. You assume you understood. Neither of you confirms it.\n\nA simple playback at the end of discovery — "here's what I heard, does that match your understanding?" — catches misalignments before they become lost deals. It also demonstrates that you were actually listening, which builds the trust that makes everything else easier.`,
+    rule: "End every discovery conversation with a playback. Confirm before you build.",
+    ruleSub: "The playback formula: 'Based on what you've shared, here's what I understand to be true: [problem], [root cause], [impact], [what success looks like]. Did I get that right?' That one question prevents more proposal failures than any other.",
+    actions: [
+      "At the end of your next discovery call, spend two minutes playing back what you heard.",
+      "Use the formula: problem, root cause, impact, future state. Say it in their words, not yours.",
+      "End with: 'Did I get that right, and is there anything I missed?' Then stay silent."
+    ],
+    actionNote: "The corrections they make in the playback are as valuable as the original discovery. That's where the nuance lives.",
+    quiz: {
+      question: "You've completed a thorough discovery call. What should you do before ending the meeting?",
+      options: [
+        "Outline the next steps and confirm the follow-up meeting",
+        "Ask if they're ready to see a demo",
+        "Play back what you heard and ask if you got it right",
+        "Send a summary email after the call with your understanding"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly right. The playback on the call — not in a follow-up email — catches misalignments in real time when you can still correct them. It also demonstrates that you listened, which builds trust and differentiates you from every rep who just takes notes and moves on.",
+      wrongFeedback: "Next steps and emails come after. The most important thing before ending a discovery call is confirming that you understood correctly. Play back what you heard — problem, cause, impact, future state — and ask if you got it right. The corrections they make are as valuable as the original answers."
+    }
+  },
+  {
+    id: 30,
+    module: 3,
+    day: 30,
+    title: "Discovery never stops",
+    subtitle: "Why the best reps are still learning in the final negotiation",
+    story: `I had a mentor who closed some of the largest deals I've ever seen. I asked him once what his secret was. He said something I've never forgotten:\n\n"I'm always in discovery. Even when I'm negotiating price, I'm learning something. The rep who thinks discovery ends after the first two calls has already lost half the deal."\n\nHe told me about a deal where he learned the most critical piece of information — that the CEO had made a personal commitment to the board about this initiative — in the fourth month of the sales cycle, during what was supposed to be a routine check-in call.\n\nThat piece of information changed his entire negotiating position. He held price. He won the deal.`,
+    insight: `Discovery is a mindset, not a phase. The best salespeople treat every conversation — every call, every email, every negotiation — as an opportunity to learn something new about the deal.\n\nOrganizations change. Priorities shift. New stakeholders emerge. Budgets get cut or expanded. The rep who stops learning after the first discovery call is working with a snapshot. The rep who keeps asking questions is working with a live picture — and live pictures win deals.`,
+    rule: "Treat every conversation as a discovery opportunity. Never stop learning about your deals.",
+    ruleSub: "In every call, no matter the stated purpose, ask one question you don't know the answer to. One question per call compounds into a massive informational advantage over the life of a deal.",
+    actions: [
+      "Pick your top three active deals. For each one, write down the one thing you most want to know but don't.",
+      "In your next touchpoint on each deal, ask that question.",
+      "Make it a habit: every call ends with one new piece of information you didn't have before it started."
+    ],
+    actionNote: "Module 4 unlocks tomorrow. It covers controlling the sales process — because great discovery means nothing if you can't drive the deal forward.",
+    quiz: {
+      question: "You're in month three of a deal, negotiating final terms. A discovery mindset means:",
+      options: [
+        "Discovery is complete — focus entirely on closing",
+        "Ask about any organizational changes that might affect the decision",
+        "Revisit the original pain points to reinforce urgency",
+        "Confirm the timeline and decision criteria one more time"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. Discovery never stops. In month three, organizations have changed, priorities have shifted, new stakeholders may have emerged. One question about what's changed internally can give you the information that changes your entire negotiating position.",
+      wrongFeedback: "Discovery doesn't end at a specific phase — it's a mindset that runs through the entire deal. In month three, the most valuable question is about what's changed since you last spoke. Organizations shift. Priorities move. The rep who keeps asking keeps winning."
+    }
   }
 ]
 
