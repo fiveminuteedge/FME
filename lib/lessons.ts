@@ -1469,6 +1469,296 @@ export const lessons: Lesson[] = [
       correctFeedback: "That's the competitive mastery mindset. Know competitors well enough that nothing surprises you. Then put every available unit of energy into understanding the customer better than anyone else in the deal. The customer is the only competitive advantage that scales.",
       wrongFeedback: "Obsessing over competitors or ignoring them entirely are both losing approaches. The winning mindset is: know them well enough to never be surprised, then focus entirely on the customer. Deep customer understanding wins more competitive deals than any counter-tactic ever will."
     }
+  },
+    {
+    id: 51,
+    module: 6,
+    day: 51,
+    title: "Closing is not a moment",
+    subtitle: "Why the close happens long before you ask for the business",
+    story: `I used to think closing was a skill. A technique. Something you did at the end of a sales cycle to convert a prospect into a customer.\n\nThen I had a manager who said something that changed how I sold for the rest of my career: "If you need a closing technique, you lost the deal somewhere in the middle. Closing is just the paperwork on a decision that's already been made."\n\nThe best deals I ever closed weren't closed. They opened. The prospect said "when do we start?" before I'd asked for anything. Because by the time we got to that conversation, the decision was obvious — the business case was clear, the champion was ready, the value was undeniable.`,
+    insight: `Closing is the natural conclusion of a sales process done well. When discovery is thorough, the business case is quantified, the champion is equipped, the committee is aligned, and the cost of inaction is visible — the close is a formality.\n\nThe rep who struggles to close is almost always struggling because something earlier in the process was incomplete. The close exposed the gap — it didn't create it. Which means the answer to closing more deals is almost never a better closing technique. It's going back earlier in the process and doing that work more completely.`,
+    rule: "The close is the result of everything that came before it. If it's hard, the problem is upstream.",
+    ruleSub: "Before any closing conversation, ask yourself: Does the economic buyer know who I am? Is the business case quantified? Does my champion have what they need to sell internally? Is the cost of inaction visible? If any answer is no — fix it before you try to close.",
+    actions: [
+      "Identify your most stuck deal — the one you've been trying to close for the longest time.",
+      "Go through the checklist above: economic buyer access, quantified business case, equipped champion, visible cost of inaction.",
+      "Find the gap. Fix the gap. The close will follow."
+    ],
+    actionNote: "A deal that won't close is a deal with an unresolved upstream problem. Closing harder is never the answer. Diagnosing earlier is.",
+    quiz: {
+      question: "You've been trying to close a deal for three months with no success. What's the most likely cause?",
+      options: [
+        "You haven't used the right closing technique",
+        "The prospect needs more time and you should be patient",
+        "Something earlier in the process is incomplete — a gap in discovery, business case, or committee alignment",
+        "The timing isn't right and you should revisit next quarter"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. A deal that won't close has an upstream problem. The close didn't create the gap — it exposed it. Go back to the fundamentals: economic buyer access, quantified business case, equipped champion, visible cost of inaction. Find the gap. Fix it.",
+      wrongFeedback: "Closing techniques and patience don't fix upstream problems. A deal that won't close after three months has a gap in the fundamentals — discovery, business case, committee alignment, or cost of inaction. Find the gap. That's where the close is hiding."
+    }
+  },
+  {
+    id: 52,
+    module: 6,
+    day: 52,
+    title: "The trial close",
+    subtitle: "How to test where you stand without asking for the business",
+    story: `I used to wait until the very end of a sales cycle to find out where I really stood. I'd invest weeks of work, build a proposal, present it — and then find out there was an objection I could have addressed three weeks earlier if I'd asked the right question.\n\nA mentor taught me the trial close: a way of testing the prospect's position without formally asking for the business. It sounds like this: "Based on what we've covered today, how are you feeling about whether this is the right direction?"\n\nThat question — asked early and often — tells you exactly where you are in the deal without triggering the pressure of a formal close. And it surfaces objections while you still have time to address them.`,
+    insight: `Trial closes are temperature checks, not closing attempts. They give you real-time information about where the prospect stands — information that lets you course-correct before it's too late.\n\nThe rep who trial closes throughout the sales cycle never gets surprised at the end. They know where every hesitation is, they've addressed every concern in real time, and by the time they formally ask for the business, they already know the answer.`,
+    rule: "Trial close after every major conversation. Know where you stand before you need to know.",
+    ruleSub: "Trial close questions: 'How are you feeling about what we've covered so far?' / 'Based on what you've seen, do you feel like this addresses what you're looking for?' / 'Is there anything that would prevent you from moving forward if the proposal looks right?' Each answer tells you exactly where you are.",
+    actions: [
+      "In your next sales call, after presenting new information or completing a demo, ask: 'How are you feeling about this based on what you've seen so far?'",
+      "Listen carefully to the answer. Enthusiasm signals advancement. Hesitation signals an unaddressed concern.",
+      "If you hear hesitation, ask: 'What would need to be true for you to feel confident moving forward?'"
+    ],
+    actionNote: "A trial close that surfaces an objection is a gift. You now have time to address it. The same objection surfaced on closing day is a deal-killer.",
+    quiz: {
+      question: "After completing a product demo, what's the best way to test where the prospect stands?",
+      options: [
+        "Ask if they're ready to move forward to the proposal stage",
+        "Ask how they're feeling about what they saw and whether it addresses what they're looking for",
+        "Send a follow-up email summarizing the key points and asking for feedback",
+        "Ask what their timeline is for making a decision"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Right. A trial close after the demo gives you real-time information about where you stand. 'How are you feeling about what you saw?' invites an honest response without the pressure of a formal ask. The answer tells you whether you're advancing or whether there's a concern to address.",
+      wrongFeedback: "Timeline questions and proposal requests jump ahead without checking the temperature. After a demo, ask how they're feeling about what they saw and whether it addresses what they're looking for. That question surfaces hesitation while you still have time to address it."
+    }
+  },
+  {
+    id: 53,
+    module: 6,
+    day: 53,
+    title: "Objections are not obstacles",
+    subtitle: "How to welcome objections instead of dreading them",
+    story: `New reps dread objections. They see them as walls — barriers between them and the close. They prepare objection handlers like counterpunches: the moment an objection lands, deploy the response.\n\nExperienced reps see objections differently. An objection is a question in disguise. It's the prospect telling you what they need to hear in order to move forward. It's not a wall — it's a map.\n\nThe rep who learns to welcome objections — to actively invite them — gets to the close faster than the one who avoids them. Because every objection addressed is a barrier removed. And the rep who addresses them proactively controls the path.`,
+    insight: `Objections are buying signals. A prospect who raises an objection is a prospect who is still engaged — they're working through their concerns because they're considering moving forward. The prospect who has already decided to say no doesn't bother objecting. They just stop responding.\n\nWhen you shift from dreading objections to welcoming them, your entire sales demeanor changes. You become curious instead of defensive. You ask questions instead of deploying scripts. And the prospect feels heard instead of handled.`,
+    rule: "Welcome objections. Invite them. The objection that's raised is the one you can address. The one that isn't is the one that kills the deal quietly.",
+    ruleSub: "In every major meeting, ask: 'What concerns do you have that we haven't addressed yet?' That question surfaces hidden objections before they become silent deal-killers.",
+    actions: [
+      "In your next sales call, proactively ask: 'What concerns do you have that we haven't talked about yet?'",
+      "When an objection surfaces, resist the urge to immediately counter it. Instead, ask: 'Can you tell me more about that?' Get the full picture before you respond.",
+      "After the call, log every objection you heard. That list is your deal health indicator."
+    ],
+    actionNote: "The call where no objections come up is not a great call. It's a call where the prospect wasn't engaged enough to share what they're really thinking.",
+    quiz: {
+      question: "A prospect raises a concern about your implementation timeline. What's your first move?",
+      options: [
+        "Explain that your implementation is faster than they think",
+        "Share a case study of a customer who implemented successfully on a tight timeline",
+        "Ask them to tell you more about the concern — what specifically worries them about the timeline",
+        "Offer to customize the implementation plan to fit their schedule"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. Before you respond to an objection, understand it fully. 'Tell me more about that' gets you the specific concern behind the surface objection. The implementation timeline concern might be about resource availability, business disruption, or an internal deadline — and each of those requires a different response.",
+      wrongFeedback: "Responding immediately to an objection — even with a good answer — risks addressing the wrong thing. Ask for more detail first. 'What specifically worries you about the timeline?' gets you the real concern. The real concern is what you need to address."
+    }
+  },
+  {
+    id: 54,
+    module: 6,
+    day: 54,
+    title: "The final objection",
+    subtitle: "How to identify and address the real reason a deal isn't closing",
+    story: `I had a deal that had survived every objection I could imagine. Price, implementation, integration, references — we'd addressed everything. And still it wasn't closing.\n\nI called my champion and asked her directly: "I feel like we've addressed every concern that's come up. Is there something else going on that's making this hard to move forward?"\n\nShe was quiet for a moment. Then she said: "Honestly? My VP is worried that if this doesn't work out, it reflects badly on her. She championed a similar project two years ago that failed. She's protecting herself."\n\nThat was the real objection. Not price, not integration, not timeline. Fear of being wrong again. We addressed it by offering an executive sponsor relationship and a phased rollout that reduced her exposure. We closed the next week.`,
+    insight: `The stated objection is often not the real objection. Price is rarely about price. Timeline is rarely about timeline. The final objection — the one that's actually blocking the close — is often personal, emotional, or political, and the prospect won't volunteer it because it doesn't feel professional to admit.\n\nThe only way to surface the real final objection is to ask for it directly, after all the stated objections have been addressed. "Is there anything else going on that I should know about?" is the question that unlocks the real answer.`,
+    rule: "After addressing all stated objections, ask: 'Is there anything else going on that's making this hard to move forward?' The answer to that question closes more deals than any technique.",
+    ruleSub: "The final objection is almost always one of three things: personal risk (fear of being wrong), political risk (internal dynamics you don't know about), or priority risk (something more urgent has taken over). Each requires a different response.",
+    actions: [
+      "Identify a deal that has survived multiple objections but still isn't closing.",
+      "Call your champion and ask: 'We've worked through everything that's come up. Is there something else going on that's making this hard to advance?'",
+      "Listen without interrupting. The first answer may not be the real one. Ask a follow-up: 'Is there anything beyond that?'"
+    ],
+    actionNote: "The rep who asks for the real objection gets the real answer. The rep who assumes they've heard everything has already lost.",
+    quiz: {
+      question: "You've addressed every objection a prospect has raised over three months. The deal still isn't closing. What do you do?",
+      options: [
+        "Offer a discount to remove the final barrier",
+        "Escalate to your executive team to add pressure",
+        "Ask your champion directly if there's something else going on that you should know about",
+        "Send a detailed proposal with all your competitive differentiators"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. When all stated objections are addressed and the deal still isn't moving, the real objection hasn't surfaced yet. Ask your champion directly: 'Is there something else going on that I should know about?' That question surfaces the personal, political, or priority-based concern that's actually blocking the close.",
+      wrongFeedback: "Discounts and proposals don't fix hidden objections — they add cost and noise. When all stated objections are resolved and the deal still isn't closing, ask your champion directly what's really going on. The real final objection is almost always personal, political, or priority-based — and it won't surface unless you ask for it."
+    }
+  },
+  {
+    id: 55,
+    module: 6,
+    day: 55,
+    title: "Negotiating without flinching",
+    subtitle: "How to handle the price challenge without losing your nerve",
+    story: `The first time a prospect challenged my price, I flinched. Not visibly — but internally I was already calculating how much I could give away before my manager would ask questions.\n\nI didn't discount that day, but I came close. And the prospect sensed my uncertainty. He pushed harder the next call.\n\nA senior rep taught me something that changed how I handled price challenges forever: "The moment you flinch, they know there's room. Never flinch. Your price is your price until you decide it isn't — and that decision should be strategic, not reactive."`,
+    insight: `Price challenges are tests, not verdicts. The prospect is not telling you your price is wrong. They're testing whether you believe your price is right. The rep who flinches tells the prospect there's room to push. The rep who holds — calmly and confidently — tells the prospect the price is the price.\n\nHolding price isn't aggression. It's confidence in your value. And confidence is contagious. The rep who believes their solution is worth the price makes it easier for the prospect to believe it too.`,
+    rule: "Never flinch at the first price challenge. Hold your price with confidence. Discounting is a last resort, not a first response.",
+    ruleSub: "The price hold response: 'I understand price is always a consideration. Before we go there, I want to make sure we've fully established the value — because if the value is clear, the price is easier to justify internally. Can we spend a few minutes on that first?'",
+    actions: [
+      "Think of the last time a prospect challenged your price. How quickly did you offer a concession?",
+      "Write out the price hold response above in your own words. Practice saying it until it sounds natural.",
+      "In your next price challenge, use the response before you offer anything. See what happens."
+    ],
+    actionNote: "The rep who holds price longest wins the most margin. Every concession you don't make is profit you keep. Hold longer than feels comfortable.",
+    quiz: {
+      question: "A prospect says 'your price is too high — we need you to come down.' What do you do first?",
+      options: [
+        "Ask how much lower they need you to go",
+        "Offer a 10% discount to show goodwill and keep the deal moving",
+        "Hold your price and redirect to value before offering any concession",
+        "Ask what competitor they're comparing you to"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. Hold your price and redirect to value first. 'Before we go there, let's make sure we've fully established the value' is the response that tests whether the price challenge is real or reflexive. Most price challenges are reflexive — they evaporate when the value is clear.",
+      wrongFeedback: "Asking how low or offering a discount immediately signals that the price was negotiable all along. Hold your price and redirect to value first. If the value is undeniable, most price challenges evaporate. Discount only after you've exhausted the value argument — and only as much as strategically necessary."
+    }
+  },
+  {
+    id: 56,
+    module: 6,
+    day: 56,
+    title: "The art of the concession",
+    subtitle: "How to give something without giving everything",
+    story: `I once watched a negotiation where the rep gave away three concessions in fifteen minutes without getting anything in return. Price down 15%. Free implementation. Extended payment terms. The prospect said thank you and asked for more.\n\nThe rep was confused. He'd been generous. Why wasn't that enough?\n\nBecause free concessions have no value. When you give something away without asking for something in return, you've told the prospect two things: that your original price was inflated, and that if they push harder, there's more to get.`,
+    insight: `Concessions are currency. Every concession you make has value — but only if you treat it that way. The discipline of good negotiation isn't refusing to give things. It's never giving anything without getting something in return.\n\nThe principle is simple: every concession you offer should require a concession in return. Not necessarily of equal size — but something. A commitment to a decision date. A longer contract term. An expanded scope. A reference agreement. When concessions are traded, not given, they maintain their value — and they signal that both sides are serious.`,
+    rule: "Never give a concession without getting one in return. Every give requires a get.",
+    ruleSub: "The concession exchange formula: 'I can look at [concession] if you can help me with [something in return]. Would that work?' What you ask for in return should have real value to you — a faster close, a longer term, an expanded scope, a reference.",
+    actions: [
+      "List the three concessions you most commonly offer in negotiations.",
+      "For each one, identify what you would ask for in return if you were to offer it.",
+      "In your next negotiation, when you offer a concession, always attach a reciprocal ask."
+    ],
+    actionNote: "The concession you give for free is the one that costs you the most. Every give needs a get.",
+    quiz: {
+      question: "A prospect asks for a 10% discount. You're willing to offer it. What do you say?",
+      options: [
+        "I can do 10% — let me get approval from my manager",
+        "I can look at 10% if we can agree on a decision by end of this month — would that work?",
+        "I can do 8% — that's the best I can do",
+        "Let me see what I can do and get back to you tomorrow"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. A concession with a reciprocal ask has value on both sides. '10% if we can agree on a decision by end of month' gives you something real in return — a committed close date. The prospect gets their discount. You get your timeline. Both sides traded something of value.",
+      wrongFeedback: "Giving a discount without a reciprocal ask tells the prospect the price was flexible all along and invites further negotiation. Always attach a get to your give. '10% if we can close by end of month' trades something of value on both sides — and signals that you're serious about the exchange."
+    }
+  },
+  {
+    id: 57,
+    module: 6,
+    day: 57,
+    title: "Protecting your terms",
+    subtitle: "What to do when procurement tries to reopen everything",
+    story: `I've had deals where I thought I was negotiating with the business stakeholders — and then procurement arrived and told me that everything we'd agreed to was just a starting point.\n\nPrice, payment terms, contract length, SLAs, indemnification clauses — all back on the table. The business champion who'd said "great, just get through procurement" was nowhere to be found.\n\nI've learned to treat procurement not as an obstacle but as a process — one that needs to be managed proactively, not reacted to. The rep who walks into procurement without a plan walks out with less than they should have.`,
+    insight: `Procurement is a professional negotiation process, not a personal attack. The people in it are doing their job — extracting maximum value from every vendor they deal with. The rep who understands this and prepares for it can hold terms that the unprepared rep gives away.\n\nThe key to protecting your terms in procurement is knowing in advance which terms are genuinely flexible and which are not — and being willing to say so clearly. Ambiguity in procurement is exploited. Clarity is respected.`,
+    rule: "Walk into every procurement negotiation knowing which terms are flexible and which are not. Ambiguity is exploited. Clarity is respected.",
+    ruleSub: "Before procurement begins, tell your champion: 'I want to make sure we can get through this smoothly. The areas where I have flexibility are [X]. The areas where I don't are [Y]. Knowing that in advance will help us manage the process.' A prepared champion navigates procurement faster.",
+    actions: [
+      "For your top active deal, write out every term that might come up in procurement: price, payment terms, contract length, SLAs, liability, termination rights.",
+      "For each term, decide: is this flexible, somewhat flexible, or non-negotiable? Be honest with yourself.",
+      "Brief your champion on your position before procurement starts — not after."
+    ],
+    actionNote: "The rep who walks into procurement with a clear position holds more of it than the one who figures it out under pressure.",
+    quiz: {
+      question: "Procurement asks for a 30-day payment term instead of your standard 60-day. This is a non-standard request for you. What do you do?",
+      options: [
+        "Agree to it to keep the deal moving — it's not worth fighting over",
+        "Decline and explain that 60 days is your standard term",
+        "Treat it as a concession opportunity — offer 45 days in exchange for something of value",
+        "Tell them you need to check with your finance team and get back to them"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. A non-standard request from procurement is a concession opportunity, not a demand to accept or reject. Offer 45 days — a movement toward their position — in exchange for something of value: a faster close, a larger initial order, a multi-year commitment. Every give needs a get.",
+      wrongFeedback: "Agreeing without getting something in return or refusing without engaging both miss the opportunity. A procurement request is a concession trade opportunity. Move toward their position in exchange for something of value to you. Every give needs a get."
+    }
+  },
+  {
+    id: 58,
+    module: 6,
+    day: 58,
+    title: "The assumptive close",
+    subtitle: "How to move to the next step without making it feel like a close",
+    story: `The most effective closing move I ever learned wasn't a technique. It was a posture.\n\nInstead of asking "are you ready to move forward?" — which puts the prospect in a position to say yes or no — I started saying "let's get the paperwork started so we can hit your target date." Moving forward was assumed. The only question was logistics.\n\nNine times out of ten, the prospect either confirmed or told me what still needed to happen. Either response was useful. The one response I rarely got was "actually, we've decided not to move forward" — because by the time I was using this move, that outcome had already been managed.`,
+    insight: `The assumptive close works because it removes the binary yes/no decision and replaces it with a logistical question. Instead of "do you want to do this?" it implies "we're doing this — let's figure out the how."\n\nIt's not manipulative. It's a natural progression for a deal that's ready to close. When the business case is clear, the committee is aligned, and the champion is ready — assuming the next step is just reflecting the reality everyone already feels.`,
+    rule: "When a deal is ready to close, assume the next step and ask about logistics — not permission.",
+    ruleSub: "Assumptive close language: 'Let's get the agreement drafted so we can hit your [date].' / 'I'll have our team reach out to yours about onboarding — who should they contact?' / 'What does your legal team need from us to get the contract reviewed?' Each assumes forward motion.",
+    actions: [
+      "Identify a deal that you believe is ready to close based on the buying signals you've seen.",
+      "Instead of asking 'are you ready to move forward,' draft an assumptive next step: what logistical question would you ask if the deal were already done?",
+      "Use that language in your next conversation on that deal."
+    ],
+    actionNote: "The assumptive close only works when the deal is genuinely ready. Using it too early feels presumptuous and damages trust. Read the deal carefully before deploying it.",
+    quiz: {
+      question: "All buying signals are positive and your champion has said the committee is aligned. What's the right closing move?",
+      options: [
+        "Ask: 'Are you ready to move forward with us?'",
+        "Send a formal proposal and ask for a signature",
+        "Say: 'Let's get the agreement drafted so we can hit your go-live date — what does your legal team need to get started?'",
+        "Schedule a final review call to confirm everything before asking for the business"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. When the deal is ready, assume the next step. 'Let's get the agreement drafted' moves to logistics, not permission. The prospect either confirms or tells you what's still needed — and both responses are useful. The binary yes/no question is the one that invites doubt.",
+      wrongFeedback: "Binary yes/no questions at the close invite hesitation. When all signals are positive, assume the next step and ask about logistics. 'Let's get the agreement drafted — what does your legal team need?' moves forward naturally without putting the prospect on the spot."
+    }
+  },
+  {
+    id: 59,
+    module: 6,
+    day: 59,
+    title: "When the deal slips",
+    subtitle: "How to recover a close that missed its date without losing the deal",
+    story: `Every rep has had a deal that was supposed to close last quarter. And the quarter before that.\n\nThe temptation when a close date slips is to push harder. More calls, more pressure, more urgency. In my experience, that approach works about 10% of the time and damages the relationship the other 90%.\n\nThe approach that works is different: when a deal slips, stop pushing forward and start diagnosing. Something changed. Find out what it was. The rep who diagnoses the slip and addresses the cause closes the deal. The rep who pushes harder just accelerates the prospect's desire to avoid them.`,
+    insight: `A slipped close date is always caused by something specific. A new stakeholder. A budget freeze. A competing priority. A concern that was never fully addressed. The slip is a symptom — and the only way to fix a symptom is to find the cause.\n\nThe diagnostic question that works every time: "I know we'd hoped to have this wrapped up by now. Something clearly changed — can you help me understand what happened?" That question, asked with genuine curiosity and no accusation, almost always gets an honest answer.`,
+    rule: "When a deal slips, diagnose before you push. Find the cause, fix the cause, reset the date.",
+    ruleSub: "Slip diagnostic question: 'I know we'd hoped to move forward by now. Something clearly shifted — can you help me understand what happened and what needs to be true for us to get back on track?' That question is an invitation, not a demand.",
+    actions: [
+      "Identify a deal that has slipped its close date at least once.",
+      "Call your champion and ask the diagnostic question above — with genuine curiosity, not frustration.",
+      "Listen to the full answer. Don't interrupt. Don't defend. Just understand. Then ask: 'What needs to be true for us to get back on track?'"
+    ],
+    actionNote: "A slipped deal diagnosed and reset is worth more than a pressured deal that closes badly. Take the time to understand before you push.",
+    quiz: {
+      question: "A deal that was supposed to close last month has gone quiet. What do you do?",
+      options: [
+        "Send a series of follow-up emails with increasing urgency",
+        "Offer a time-limited discount to create pressure to close",
+        "Call your champion and ask with genuine curiosity what shifted and what needs to be true to get back on track",
+        "Escalate to your VP to have an executive reach out to their leadership"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. A slipped deal has a cause. Find it before you push. Call your champion with genuine curiosity — not frustration — and ask what shifted. That question almost always gets an honest answer, and the honest answer tells you exactly what to fix.",
+      wrongFeedback: "Urgency tactics and escalations push a prospect who may already be overwhelmed. A slipped deal has a specific cause — and the only way to fix it is to find it. Call your champion with genuine curiosity and ask what changed. The answer will tell you exactly what to do next."
+    }
+  },
+  {
+    id: 60,
+    module: 6,
+    day: 60,
+    title: "The rep you're becoming",
+    subtitle: "Sixty days in — and what comes next",
+    story: `Sixty days ago you started this. One lesson. Five minutes. One action.\n\nIf you've applied even half of what's in these modules, something has already shifted in how you sell. Maybe it's how you run discovery. Maybe it's how you think about the buying committee. Maybe it's that you held price once when you would have folded before.\n\nThe reps who change their results don't do it by learning everything at once. They do it by applying one thing at a time until it becomes instinct. And then they add the next thing.\n\nYou've built the foundation. What you do with it is the only thing that matters now.`,
+    insight: `Sales mastery is not a destination. It's a practice. The frameworks in these sixty lessons — value selling, committee navigation, deep discovery, process control, competitive selling, and negotiation — are not techniques to deploy once. They're disciplines to build over a career.\n\nThe rep who applies these consistently, reviews them when deals go wrong, and teaches them to others will look back in five years and not recognize the version of themselves that started here. That transformation doesn't happen all at once. It happens one deal, one call, one lesson at a time.\n\nYou've done sixty. Keep going.`,
+    rule: "Mastery is not knowing everything. It's applying the fundamentals so consistently that they become instinct.",
+    ruleSub: "The one question that separates reps who improve from those who plateau: 'What did I do in that deal that I would do differently next time?' Ask it after every win and every loss. The answer is your curriculum.",
+    actions: [
+      "Go back to the deal you were working when you started Day 1. What's different about how you're approaching it now?",
+      "Identify the one framework from these sixty lessons that has changed your selling the most. Make it your core practice for the next thirty days.",
+      "Find one person — a peer, a new rep, someone you mentor — and teach them the framework. Teaching is the fastest path to mastery."
+    ],
+    actionNote: "You've completed FiveMinuteEdge. The edge you've built is only as sharp as how consistently you apply it. Go apply it.",
+    quiz: {
+      question: "Which best describes the path to sales mastery after completing these sixty lessons?",
+      options: [
+        "Memorize all six frameworks and deploy them on every deal",
+        "Focus on the two or three lessons that were most surprising and build from there",
+        "Apply the fundamentals consistently, review what you'd do differently after every deal, and teach what you know to others",
+        "Return to the modules when you have a specific challenge and treat them as a reference library"
+      ],
+      correctIndex: 2,
+      correctFeedback: "That's it. Consistent application. Post-deal review. Teaching others. Those three practices — sustained over a career — are what separate the reps who plateau from the ones who keep getting better. You've built the foundation. Now go build the career.",
+      wrongFeedback: "Memorization and reference use both miss the point. Mastery comes from consistent application, honest post-deal review, and teaching others what you know. Those three practices, sustained over time, compound into the kind of selling that feels effortless — because it's been practiced until it's instinct."
+    }
   }
 ]
 
