@@ -889,6 +889,296 @@ export const lessons: Lesson[] = [
       correctFeedback: "Exactly. Discovery never stops. In month three, organizations have changed, priorities have shifted, new stakeholders may have emerged. One question about what's changed internally can give you the information that changes your entire negotiating position.",
       wrongFeedback: "Discovery doesn't end at a specific phase — it's a mindset that runs through the entire deal. In month three, the most valuable question is about what's changed since you last spoke. Organizations shift. Priorities move. The rep who keeps asking keeps winning."
     }
+  },
+  {
+    id: 31,
+    module: 4,
+    day: 31,
+    title: "Who's driving your deal?",
+    subtitle: "Why most reps are passengers in their own sales process",
+    story: `Early in my career I had a manager who asked me a question about every deal in my pipeline: "Who's driving this — you or them?"\n\nMost of the time I had to admit it was them. I was waiting for the prospect to get back to me. Waiting for them to schedule the next call. Waiting for them to tell me what they needed next. I thought I was being respectful of their process. My manager called it something else.\n\n"You're not in a sales process," he told me. "You're in a waiting room."`,
+    insight: `The rep who controls the process controls the outcome. Not in a manipulative way — in a professional way. Top performers don't wait to be told what happens next. They propose it, get agreement, and hold both sides accountable to it.\n\nWhen a prospect controls the process, deals drift. Timelines slip. Urgency fades. Competitors get invited in. When you control the process — with the prospect's agreement — deals move. The simple act of owning next steps is one of the highest-leverage behaviors in complex sales.`,
+    rule: "Always leave every conversation with the next step agreed to — date, time, attendees, and purpose.",
+    ruleSub: "Vague next steps are no next steps. 'I'll follow up next week' is not a next step. 'We'll speak Thursday at 2pm to review the business case with you and your CFO' is a next step.",
+    actions: [
+      "Review your last five sales calls. Did each one end with a specific next step — date, time, attendees, purpose?",
+      "For any deal where the next step is vague or undefined, reach out today and propose a specific one.",
+      "In your next call, before hanging up, say: 'Let's get our next conversation on the calendar before we hang up. Does Thursday at 2pm work?'"
+    ],
+    actionNote: "The prospect who agrees to a specific next step is a prospect who's still in the deal. The one who says 'I'll be in touch' is telling you something important.",
+    quiz: {
+      question: "A discovery call ends and the prospect says 'great, I'll share this with my team and get back to you.' What do you do?",
+      options: [
+        "Thank them and send a follow-up email summarizing the call",
+        "Ask when you can expect to hear back",
+        "Propose a specific next call with a date, time, and clear purpose before hanging up",
+        "Send a proposal within 24 hours to keep momentum"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. 'I'll get back to you' is a deal killer if you let it stand. Propose a specific next step before the call ends — date, time, who should be there, what you'll cover. A prospect who agrees to that is still moving forward.",
+      wrongFeedback: "Letting the prospect drive the follow-up gives away control of your deal. Before you hang up, propose a specific next step — date, time, attendees, purpose. A vague 'I'll be in touch' is the beginning of a stalled deal."
+    }
+  },
+  {
+    id: 32,
+    module: 4,
+    day: 32,
+    title: "The mutual action plan",
+    subtitle: "How to align your sales process with the prospect's buying process",
+    story: `I introduced mutual action plans late in my career and immediately wondered why I hadn't done it earlier.\n\nThe concept is simple: a shared document that lists every step required to go from where we are today to a signed contract — with owners and dates on both sides.\n\nThe first time I presented one, the VP of Operations looked at it and said: "No vendor has ever given us this before." She forwarded it to her CFO with the note: "This is how organized these people are."\n\nWe won that deal. The MAP was cited as a differentiator in the debrief.`,
+    insight: `A mutual action plan does three things at once: it aligns expectations, it creates accountability, and it differentiates you from every other vendor who's just asking "so what are your next steps?"\n\nIt also surfaces obstacles early. When you put a MAP in front of a prospect and they push back on a specific milestone, that pushback tells you something important about where the real friction is. You want to find that friction now — not two weeks before the close date.`,
+    rule: "Create a mutual action plan for every deal over 30 days. Put it in front of the prospect and get their edits.",
+    ruleSub: "A MAP the prospect has edited is a MAP the prospect owns. Their version of the plan is ten times more binding than yours.",
+    actions: [
+      "Pick your top active deal. Draft a simple mutual action plan: list every step required to close, with a proposed owner and date for each.",
+      "Send it to your champion with this note: 'I put this together to make sure we're aligned on what needs to happen and when. Does this match your understanding? What would you change?'",
+      "Update it based on their feedback. Use it as the agenda for every subsequent meeting."
+    ],
+    actionNote: "The MAP doesn't need to be fancy. A simple table in a Word document or Google Sheet is enough. What matters is that it exists and that both sides have agreed to it.",
+    quiz: {
+      question: "You send a mutual action plan to your champion and they remove one milestone you thought was critical. What does that tell you?",
+      options: [
+        "The champion made a mistake and you should add it back",
+        "That milestone isn't part of their internal process and you've learned something important",
+        "The deal is at risk and you should escalate",
+        "The champion doesn't understand the full scope of what's required"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. When a prospect edits your MAP, every change is information. A removed milestone means it's not part of their process — which either means you misunderstood the process, or there's a gap you need to explore. Either way, you've learned something critical.",
+      wrongFeedback: "A prospect's edits to your MAP are information, not errors. When they remove a milestone, it means that step doesn't exist in their process — which tells you either you misunderstood something or there's a gap worth exploring. Their version of the plan is always more accurate than yours."
+    }
+  },
+  {
+    id: 33,
+    module: 4,
+    day: 33,
+    title: "The power of the pre-call plan",
+    subtitle: "Why preparation is the most underrated sales skill",
+    story: `I used to walk into sales calls with a general idea of what I wanted to cover. An agenda in my head. Topics I planned to hit.\n\nThen I had a manager who made me write out a pre-call plan for every meeting — objective, questions I planned to ask, success criteria, how I'd handle the top three objections I expected.\n\nThe first time I did it seriously, I walked into a call and within five minutes realized the prospect's priorities had shifted. Because I'd done the prep, I could pivot immediately without losing the thread. Without the prep, I would have spent thirty minutes running my agenda while they waited for me to catch up to where they actually were.`,
+    insight: `Preparation is leverage. The rep who walks in knowing exactly what they want to learn, what they want to accomplish, and what objections they expect is three steps ahead of the one who's winging it.\n\nPre-call planning also signals respect. When you arrive knowing their business, their recent news, and the specific challenges you discussed last time, the prospect notices. It tells them you take this seriously — and that you're worth their time.`,
+    rule: "Write a pre-call plan for every meaningful sales conversation. Three minutes of preparation changes the quality of every meeting.",
+    ruleSub: "Pre-call plan format: (1) What is my objective for this call? (2) What are my top three questions? (3) What objections do I expect and how will I handle them? (4) What's the specific next step I want to leave with?",
+    actions: [
+      "Before your next sales call, spend five minutes writing out a pre-call plan using the four-part format above.",
+      "After the call, compare what you planned with what actually happened. Note the gaps.",
+      "Make pre-call planning a non-negotiable habit for every meeting over 20 minutes."
+    ],
+    actionNote: "The value of the plan isn't following it perfectly — it's the clarity that comes from making it. A rep who planned and pivoted is always ahead of one who never planned at all.",
+    quiz: {
+      question: "You have a 30-minute call with a VP you've never met. What should you do in the 5 minutes before the call?",
+      options: [
+        "Review your product's key features and differentiators",
+        "Check their LinkedIn profile to learn their background",
+        "Write out your objective, top questions, expected objections, and desired next step",
+        "Review the notes from your last conversation with their team"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. Five minutes of structured pre-call planning — objective, questions, objections, next step — is the highest-leverage use of that time. LinkedIn and notes are inputs to the plan, not substitutes for it.",
+      wrongFeedback: "Background research and note review are inputs. The output that matters is a written plan: what do you want to accomplish, what will you ask, what objections do you expect, and what next step will you propose? That four-part structure takes five minutes and changes the quality of every conversation."
+    }
+  },
+  {
+    id: 34,
+    module: 4,
+    day: 34,
+    title: "Handling the stall",
+    subtitle: "What to do when a deal stops moving and you don't know why",
+    story: `Every rep has a deal that goes quiet without explanation. No missed deadlines, no obvious objections — just silence. Calls not returned. Emails not answered. A deal that was moving starts drifting.\n\nMost reps respond with more follow-up. Another email. Another voicemail. Another "just checking in." Each one slightly more desperate than the last.\n\nI learned a different approach from a rep I mentored who had an unusually high rate of resurrecting stalled deals. His rule: when a deal goes quiet, stop doing what you've been doing. Change the channel, change the message, or change the contact.`,
+    insight: `Stalled deals almost always have a reason. The reason is almost never "they got busy." It's usually one of three things: an internal event you don't know about, a competing priority that has pushed your deal down the list, or a concern they don't know how to raise without it feeling awkward.\n\nThe cure for a stall is not more of the same. It's a pattern interrupt — a different kind of message, through a different channel, that invites honesty rather than demanding a response.`,
+    rule: "After two unanswered follow-ups, stop following up and send a pattern interrupt instead.",
+    ruleSub: "Pattern interrupt message: 'I want to be respectful of your time. If priorities have shifted or this isn't the right moment, I completely understand — just let me know and I'll close this out on my end. If it's still live, I'd love to reconnect.' Short, low pressure, requires a response.",
+    actions: [
+      "Identify every deal in your pipeline that hasn't moved in two or more weeks.",
+      "For any deal with two or more unanswered follow-ups, stop sending standard follow-ups.",
+      "Send the pattern interrupt message above — adapted to your deal and relationship — and see what comes back."
+    ],
+    actionNote: "A 'no' now is worth more than a 'maybe' that never converts. The pattern interrupt forces a response — and whatever that response is, it's more useful than silence.",
+    quiz: {
+      question: "A deal has gone quiet for three weeks. You've sent two follow-up emails with no response. What do you do?",
+      options: [
+        "Send a third follow-up with a new piece of relevant content",
+        "Call instead of email to change the channel",
+        "Send a short pattern interrupt message that gives them permission to say no",
+        "Reach out to another contact at the company to see what's happening"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. More follow-ups don't break silence — they extend it. The pattern interrupt changes the dynamic entirely. It removes pressure, invites honesty, and almost always generates a response. That response tells you where the deal actually stands.",
+      wrongFeedback: "More follow-ups — even with new content or through a different channel — rarely break prolonged silence. The pattern interrupt works because it changes the dynamic: it removes pressure, gives them permission to say no, and invites honesty. That's what generates a response."
+    }
+  },
+  {
+    id: 35,
+    module: 4,
+    day: 35,
+    title: "Compressing the timeline",
+    subtitle: "How to create legitimate urgency without pressure tactics",
+    story: `A deal I was working had been in the pipeline for five months. Every time I asked about timeline, the prospect said "we're still evaluating." Nothing I did seemed to move it.\n\nThen I tried something different. Instead of asking about their timeline, I asked about the cost of waiting.\n\n"Based on what you've shared, this problem is costing you about $80,000 a month. We've been talking for five months. That's $400,000 in avoidable cost since our first conversation. I'm not saying that to create pressure — I just want to make sure you have that number when you're thinking about timing."\n\nThey signed within two weeks.`,
+    insight: `Timeline compression isn't about pressure — it's about math. When you make the cost of delay visible and specific, waiting stops feeling neutral. Every month that passes has a price tag. Your job is to calculate that price tag and present it as information, not as leverage.\n\nThe rep who says "this offer expires Friday" is applying pressure. The rep who says "every month this goes unsolved costs you approximately X" is providing value. The second approach creates urgency that comes from the prospect's own numbers — which is the only urgency that holds.`,
+    rule: "Compress timelines with math, not pressure. Calculate the monthly cost of inaction and present it as a service.",
+    ruleSub: "Monthly cost of inaction = annual cost of problem ÷ 12. Present it this way: 'I want to make sure you have this number when thinking about timing. Every month this goes unsolved costs you approximately X.'",
+    actions: [
+      "For your top stalled deal, calculate the monthly cost of inaction using the prospect's own numbers.",
+      "In your next touchpoint, present that number as information: 'I wanted to share something I calculated...'",
+      "Ask: 'Does that change how you're thinking about the timeline?'"
+    ],
+    actionNote: "Never say 'if you sign by Friday.' Say 'every month this goes unsolved costs you approximately X.' The first is pressure. The second is value.",
+    quiz: {
+      question: "A prospect keeps pushing the decision to next quarter. What's the most effective response?",
+      options: [
+        "Offer a discount if they sign this quarter",
+        "Remind them that implementation takes time and they should start soon",
+        "Calculate the monthly cost of delay and present it as information",
+        "Ask what's preventing them from moving forward now"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly right. The monthly cost of delay, calculated from their own numbers, is the only urgency that doesn't feel like pressure. It reframes the delay as an active financial decision — not a neutral wait.",
+      wrongFeedback: "Discounts and implementation warnings are pressure tactics that erode trust and margin. The monthly cost of delay — calculated from the prospect's own numbers and presented as information — is the only urgency that actually works without damaging the relationship."
+    }
+  },
+  {
+    id: 36,
+    module: 4,
+    day: 36,
+    title: "The demo that sells",
+    subtitle: "Why most demos lose deals — and how to run one that wins",
+    story: `I've seen hundreds of demos. Most of them follow the same pattern: the rep shares their screen, clicks through every feature in roughly the order they appear in the product, and ends with "any questions?"\n\nThe prospect has been watching for forty-five minutes. They've seen things they'll never use. They've missed the two things they actually care about because those were buried in the middle and the rep moved past them too fast.\n\nThe best demo I ever saw lasted twenty minutes. The rep showed exactly three things — the three things the prospect had said were their top priorities in discovery — and nothing else. The prospect said it was the best vendor presentation they'd ever seen.`,
+    insight: `A demo is not a product tour. A demo is a proof point — a targeted demonstration that shows the prospect exactly how their specific problem gets solved, using their own terminology, in the order of their own priorities.\n\nEvery minute spent on a feature the prospect didn't ask about is a minute of attention you'll never get back. The discipline of the great demo is radical focus: show only what they care about, in the language they used to describe it, and let them see themselves in the solution.`,
+    rule: "Never demo a feature the prospect didn't ask about. Show less. Make it hit harder.",
+    ruleSub: "Before every demo, send this email: 'To make sure we use your time well, I'd like to focus on the three things most relevant to you. Based on our conversations, I believe those are [X, Y, Z]. Does that match your priorities, or is there something else you'd want to see?' Their answer is your demo agenda.",
+    actions: [
+      "Before your next demo, send the pre-demo email above and get confirmation of the prospect's top priorities.",
+      "Build your demo agenda around only those priorities — nothing else.",
+      "Start the demo by saying: 'You told me your top priorities were X, Y, and Z. That's all we're going to focus on today.'"
+    ],
+    actionNote: "The prospect who sees exactly what they asked for thinks you built it for them. That feeling is worth more than any feature you could have added.",
+    quiz: {
+      question: "You're preparing a demo for a prospect who said their top priorities are reporting and user permissions. What do you show?",
+      options: [
+        "Reporting, user permissions, and your three most popular features",
+        "A full product walkthrough that includes reporting and user permissions",
+        "Only reporting and user permissions — exactly what they asked for",
+        "Reporting, user permissions, and one additional feature that might surprise them"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. Show only what they asked for. Every unrequested feature dilutes focus and signals that you weren't listening. A twenty-minute demo of exactly what they care about is more powerful than a sixty-minute tour of everything you built.",
+      wrongFeedback: "Adding features the prospect didn't ask for — even popular ones, even surprising ones — dilutes the demo and signals you weren't listening. Show only what they asked for. Radical focus is what makes a demo memorable."
+    }
+  },
+  {
+    id: 37,
+    module: 4,
+    day: 37,
+    title: "Qualifying out",
+    subtitle: "Why walking away from bad deals is one of the most valuable skills in sales",
+    story: `I spent four months on a deal that was never going to close. I knew it by month two — the budget wasn't real, the champion had no influence, and the economic buyer had never agreed to meet me. But the prospect was engaged, the conversations were good, and I kept telling myself it would come together.\n\nIt didn't. I lost four months of selling time chasing a deal that was dead in month two.\n\nThe rep who replaced me on the territory looked at my pipeline and killed six deals in his first week. He said: "These aren't opportunities. They're appointments." He hit 140% of quota that year. I'd hit 72%.`,
+    insight: `Not every opportunity deserves your time. The ability to disqualify a deal — to look at a prospect and say "this isn't going to close and I need to move on" — is one of the highest-value skills in complex sales.\n\nBad deals don't just waste time. They crowd out good deals. Every hour you spend on a deal that isn't going to close is an hour you're not spending on one that will. Pipeline hygiene isn't pessimism — it's arithmetic.`,
+    rule: "Disqualify fast. A deal that can't close is a tax on the deals that can.",
+    ruleSub: "Four disqualification signals: no economic buyer access, no defined budget, no compelling event driving a decision, no internal champion willing to fight for you. Two or more of these in a deal means it needs to be qualified out or fundamentally restructured.",
+    actions: [
+      "Go through your full pipeline today. For each deal, check: Do I have economic buyer access? Is there a real budget? Is there a compelling event? Do I have a real champion?",
+      "Flag any deal that fails two or more of these tests.",
+      "For each flagged deal, decide: can I fix the gap in the next two weeks? If not, move it out of active pipeline."
+    ],
+    actionNote: "A shorter pipeline of real deals closes more revenue than a long pipeline of hopes. Clean yours this week.",
+    quiz: {
+      question: "A prospect has been engaged for three months but you've never spoken to the economic buyer and there's no defined budget. What should you do?",
+      options: [
+        "Keep nurturing the relationship and wait for budget to become available",
+        "Ask your champion to get the economic buyer on a call within two weeks or disqualify the deal",
+        "Send a formal proposal to create urgency and flush out the real decision",
+        "Escalate to your manager and ask for help getting executive access"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Right. Give the deal a test with a clear deadline: get economic buyer access in two weeks or move on. A champion who can't arrange that meeting in three months isn't a real champion. The deal needs to either advance or exit your pipeline.",
+      wrongFeedback: "Nurturing without economic buyer access is expensive patience. Set a clear test: ask your champion to arrange a meeting with the economic buyer within two weeks. If they can't do that after three months, you don't have a real opportunity — you have an appointment."
+    }
+  },
+  {
+    id: 38,
+    module: 4,
+    day: 38,
+    title: "The proposal that closes",
+    subtitle: "Why most proposals lose — and what makes one win",
+    story: `I've reviewed hundreds of sales proposals. Most of them are product brochures with a price at the end. They describe features, list capabilities, include customer logos, and conclude with a number.\n\nThe prospect reads them and thinks: "This is what they want to sell me. Where's what I need to buy?"\n\nThe proposals that win are different. They start with the problem — the prospect's problem, in the prospect's language, with the prospect's numbers. The solution comes second. The price comes last and is contextualized against the cost of the problem it solves.\n\nOne format says "here's our product." The other says "here's your situation, here's how we solve it, here's why it's worth it." They are not the same document.`,
+    insight: `A winning proposal mirrors the prospect's own language back to them. It demonstrates that you listened, that you understood, and that what you're proposing is specifically designed for their situation — not pulled from a template.\n\nThe structure that closes: (1) Their situation and the problem as they described it. (2) The root cause you identified together. (3) The cost of the problem, in their numbers. (4) Your solution and why it addresses the root cause. (5) The investment and the payback period. That's it.`,
+    rule: "A proposal should read like a mirror, not a brochure. Start with their problem, not your product.",
+    ruleSub: "The test: can the prospect read the first paragraph of your proposal and think 'they understood exactly what we're dealing with'? If not, rewrite it until they can.",
+    actions: [
+      "Pull your most recent proposal. Read the first paragraph. Does it describe the prospect's problem or your product?",
+      "Rewrite the opening of your next proposal to start with the prospect's situation — their words, their numbers, their priorities.",
+      "Move all product description to section two. The problem must come first."
+    ],
+    actionNote: "The proposal that wins the deal is the one the economic buyer reads and says 'they get it.' Make that the goal of every word you write.",
+    quiz: {
+      question: "What should the first section of a winning proposal contain?",
+      options: [
+        "Your company overview and why you're qualified to help",
+        "The prospect's situation, the problem they described, and the cost in their numbers",
+        "An executive summary of your proposed solution",
+        "Customer testimonials and case studies from similar companies"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. The first section of a winning proposal is about them, not you. Their situation, their problem, their numbers. When the economic buyer reads that and thinks 'they understood exactly what we're dealing with,' you've already won half the battle.",
+      wrongFeedback: "Company overviews, solution summaries, and case studies all belong later. The first section must be about the prospect — their situation, their problem, their numbers. A proposal that opens with your credentials is a proposal that signals you didn't listen."
+    }
+  },
+  {
+    id: 39,
+    module: 4,
+    day: 39,
+    title: "Controlling the evaluation",
+    subtitle: "How to shape the criteria that determine who wins",
+    story: `I once lost a deal to a competitor that I should have won on every objective measure. Better product, better support, better references. After the loss I asked for a debrief.\n\nThe prospect told me: "Your competitor asked us early on what we'd use to evaluate vendors. We gave them our list. They came back two weeks later with a framework that included three additional criteria we hadn't thought of — criteria that their product was uniquely strong on. By the time we evaluated everyone else, those criteria were on the list."\n\nThey shaped the evaluation. I just participated in it.`,
+    insight: `Evaluation criteria are not fixed. They're shaped by whoever engages with the prospect most thoughtfully, earliest. The vendor who helps the prospect think through what matters — and introduces criteria that reflect their own strengths — controls the outcome before the evaluation begins.\n\nThis isn't manipulation. It's expertise. You know more about what makes a solution in your category successful than your prospect does. Helping them build a rigorous evaluation framework is genuinely valuable — and it happens to favor vendors who are confident in their strengths.`,
+    rule: "Shape the evaluation criteria early. Ask what they'll use to decide — then help them think about what they might be missing.",
+    ruleSub: "Ask: 'What criteria will you use to evaluate vendors?' Then: 'In our experience, the companies that get the most value from a solution like this also consider [X]. Is that something you'd want to include?' X should be something you're uniquely strong on.",
+    actions: [
+      "In your next active deal, ask your champion: 'What criteria is your team using to evaluate vendors?'",
+      "Identify one criterion that isn't on their list but reflects a genuine strength of yours.",
+      "Introduce it as expertise: 'One thing we've seen matter a lot for companies in your situation is X. Have you thought about including that in your evaluation?'"
+    ],
+    actionNote: "The goal isn't to game the evaluation — it's to make it more rigorous. Genuinely important criteria that you happen to be strong on are worth surfacing. That's not manipulation. That's consulting.",
+    quiz: {
+      question: "A prospect shares their vendor evaluation criteria. You notice it's missing a category where you're significantly stronger than competitors. What do you do?",
+      options: [
+        "Nothing — it's their evaluation and you should respect their process",
+        "Build your proposal around the existing criteria and hope they notice your strength",
+        "Ask if they've considered that category and explain why it matters for their situation",
+        "Ask your champion to add it to the criteria list on your behalf"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. Introducing a missing criterion as expertise — not as self-promotion — is legitimate and valuable. You know things about what makes a solution successful that the prospect hasn't thought about yet. Sharing that knowledge shapes the evaluation in your favor while genuinely helping them make a better decision.",
+      wrongFeedback: "Staying silent when you see a gap in the evaluation criteria is a missed opportunity. Introducing the missing category as expertise — 'in our experience, companies in your situation also consider X' — is legitimate, valuable, and shapes the evaluation in your favor."
+    }
+  },
+  {
+    id: 40,
+    module: 4,
+    day: 40,
+    title: "Process mastery: putting it all together",
+    subtitle: "The rep who controls the process controls the outcome",
+    story: `The best sales rep I ever worked with didn't have the best product. She didn't have the lowest price. She didn't have the most charisma or the deepest technical knowledge.\n\nWhat she had was process.\n\nEvery deal she worked had a mutual action plan. Every call ended with a specific next step. Every proposal started with the prospect's problem. Every demo showed exactly what was asked for and nothing else. Every stalled deal got a pattern interrupt within two weeks.\n\nShe ran the same disciplined process on every deal, regardless of size. And she hit quota every quarter for seven consecutive years — including two years when the market was terrible and everyone around her was struggling.`,
+    insight: `Process mastery is the most durable competitive advantage in sales. Charisma fades. Products get copied. Prices get matched. But the rep with a disciplined, consistent process wins across market conditions, product cycles, and competitive landscapes.\n\nThe skills in this module — controlling next steps, building mutual action plans, preparing for calls, handling stalls, compressing timelines, running focused demos, qualifying fast, writing proposals that mirror, shaping evaluations — are not tactics. They are the infrastructure of a repeatable sales career.`,
+    rule: "Process is the only thing that works regardless of market conditions. Build yours and protect it.",
+    ruleSub: "Review your process after every lost deal. The loss almost always points to a process failure — a step skipped, a qualification signal ignored, a next step left vague. Fix the process, not just the outcome.",
+    actions: [
+      "Review your top five active deals against the full Module 4 framework: Are next steps specific? Is there a MAP? Are you pre-call planning? Is the pipeline clean? Do you know the evaluation criteria?",
+      "Identify the one process gap that, if fixed, would most improve your current pipeline.",
+      "Fix it this week — not next month."
+    ],
+    actionNote: "Module 5 unlocks tomorrow. It covers competitive selling — winning when you're not the default choice, which is most of the time.",
+    quiz: {
+      question: "Which combination best represents process mastery in complex sales?",
+      options: [
+        "Strong relationships + product expertise + competitive pricing + persistence",
+        "Specific next steps + mutual action plan + focused demos + clean pipeline + proposal that mirrors",
+        "Executive access + strong champion + compelling business case + fast close",
+        "Pre-call planning + objection handling + post-call follow-up + quarterly business reviews"
+      ],
+      correctIndex: 1,
+      correctFeedback: "That's the process framework. Specific next steps, a mutual action plan, demos that show only what was asked for, a pipeline of real deals, and proposals that start with the prospect's problem. These disciplines, applied consistently, produce results across any market condition.",
+      wrongFeedback: "The process mastery framework is: specific next steps, mutual action plan, focused demos, a clean pipeline, and proposals that mirror the prospect's situation. These aren't tactics — they're the infrastructure of a repeatable sales career."
+    }
   }
 ]
 
