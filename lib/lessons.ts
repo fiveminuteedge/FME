@@ -1179,6 +1179,296 @@ export const lessons: Lesson[] = [
       correctFeedback: "That's the process framework. Specific next steps, a mutual action plan, demos that show only what was asked for, a pipeline of real deals, and proposals that start with the prospect's problem. These disciplines, applied consistently, produce results across any market condition.",
       wrongFeedback: "The process mastery framework is: specific next steps, mutual action plan, focused demos, a clean pipeline, and proposals that mirror the prospect's situation. These aren't tactics — they're the infrastructure of a repeatable sales career."
     }
+  },
+    {
+    id: 41,
+    module: 5,
+    day: 41,
+    title: "You are never the obvious choice",
+    subtitle: "Why every deal is competitive — even the ones that look like they're yours",
+    story: `I had a deal that felt like a gift. The prospect had been using a competitor's product for three years and hated it. They came to us. They were enthusiastic. Their champion called me and said "we want to work with you — just help us get through procurement."\n\nI assumed it was done. I stopped competing.\n\nTwo months later they signed with another vendor. A new VP had joined during the evaluation and brought in a vendor she'd used at her last company. I never knew she existed until the deal was lost.\n\nNo deal is ever safe. The rep who stops competing loses deals they thought were gifts.`,
+    insight: `Every deal has competition. Sometimes it's another vendor. Sometimes it's the status quo. Sometimes it's an internal build option. Sometimes it's a new stakeholder who shows up in month three with a different preference.\n\nThe reps who win consistently are the ones who compete as hard in the final week as they did in the first meeting. They never assume. They never coast. They treat every deal as contested until the ink is dry — because every deal is.`,
+    rule: "Treat every deal as competitive until it's signed. Complacency is the most expensive mistake in sales.",
+    ruleSub: "The question to ask yourself weekly on every active deal: 'What would I do differently if I found out tomorrow that a competitor had just gotten a meeting with my champion's CFO?' Whatever that answer is — do it now.",
+    actions: [
+      "Identify the deal in your pipeline you feel most confident about.",
+      "Ask yourself: what would I do if a strong competitor just entered this deal today?",
+      "Do at least one of those things this week — before you need to."
+    ],
+    actionNote: "The best time to compete harder is before you know you need to. By the time you find out a competitor is in the deal, you're already behind.",
+    quiz: {
+      question: "Your champion tells you 'I think we're going to go with you — just need to get through procurement.' What do you do?",
+      options: [
+        "Thank them and focus on getting the paperwork ready",
+        "Ask procurement what they need and respond quickly",
+        "Continue competing as if the deal isn't won — stay close to the champion and ask who else is involved in procurement",
+        "Schedule a kickoff call to show confidence and momentum"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. 'We're going with you' is not a signed contract. Continue competing. Stay close to your champion, find out who's involved in procurement, and ask if any new stakeholders have been added to the process. Deals die in the final stretch when reps stop competing.",
+      wrongFeedback: "A verbal commitment is not a closed deal. Continue competing — ask who's involved in procurement, whether any new stakeholders have joined the process, and what could still derail the decision. Deals that feel won are the ones reps stop working. That's when competitors win them."
+    }
+  },
+  {
+    id: 42,
+    module: 5,
+    day: 42,
+    title: "Know your competitors cold",
+    subtitle: "You can't win a fight you're not prepared for",
+    story: `I once walked into a competitive situation knowing almost nothing about the competitor. The prospect mentioned them in the first meeting. I smiled, nodded, and changed the subject.\n\nThree weeks later in a group presentation, their VP asked me directly: "How do you compare to [competitor]?" I gave a vague answer about our strengths. The VP nodded politely. I could tell from his expression that he'd already heard the competitor's version of that comparison — and it was specific.\n\nI lost that deal. In the debrief, the prospect told me: "The other vendor knew exactly how they compared to you. You didn't seem to know much about them."`,
+    insight: `You cannot win a competitive battle you haven't prepared for. Knowing your competitors — their strengths, their weaknesses, their typical objections, the deals they win and the ones they lose — is not optional intelligence. It's the foundation of competitive selling.\n\nThis doesn't mean attacking competitors. It means knowing the landscape well enough that when a prospect asks "how do you compare to X," you have a specific, honest, confident answer that advances your position without diminishing theirs.`,
+    rule: "Know your top three competitors as well as you know your own product. Study their wins, not just their losses.",
+    ruleSub: "The competitive prep question: 'What does this competitor say about us?' Know their attack lines before they use them. The rep who's been briefed on a competitor's talking points is never caught off guard.",
+    actions: [
+      "List your top three competitors. For each one, write: what are they genuinely strong at, what are their real weaknesses, and what do they say about you?",
+      "Ask a customer who evaluated both you and a competitor what the competitor said about you. Their answer is your competitive intelligence.",
+      "Prepare a one-paragraph honest comparison for each competitor — something you'd be comfortable saying in front of a prospect."
+    ],
+    actionNote: "Competitive intelligence is a living asset. Update it every time you win or lose a competitive deal.",
+    quiz: {
+      question: "A prospect asks 'how do you compare to [competitor]?' What's the best response?",
+      options: [
+        "We're focused on what makes us the right choice for you rather than comparing to others",
+        "They're a solid company — here's an honest comparison of where we each excel and where we differ",
+        "Most customers who've evaluated both choose us — here's why",
+        "That's a great question — what have you heard about them so far?"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Right. An honest, specific comparison builds credibility. Deflecting signals you're not confident. Claiming superiority sounds like a pitch. An even-handed answer that acknowledges the competitor's strengths while clearly differentiating yours is what earns trust — and wins deals.",
+      wrongFeedback: "Deflecting the comparison signals you're either uninformed or afraid to engage. The answer that builds the most trust is an honest one: acknowledge what the competitor does well, then clearly differentiate where you're stronger and why it matters for their situation."
+    }
+  },
+  {
+    id: 43,
+    module: 5,
+    day: 43,
+    title: "Winning on value, not price",
+    subtitle: "How to hold your price when a competitor goes lower",
+    story: `A competitor came in with a price that was 30% below ours. My champion told me about it on a Friday afternoon with a tone that said: "You need to do something."\n\nMy first instinct was to call my manager and ask for approval to discount. My second instinct — the one I followed — was to call my champion and ask a different question.\n\n"Before we talk about price, can I ask — do you believe our solution solves the problem better than theirs?"\n\nShe said yes.\n\n"Then the question isn't whether we can match their price. It's whether the difference in value justifies the difference in cost. Let's figure that out together."\n\nWe held price. We won the deal.`,
+    insight: `Price pressure is almost always a value gap in disguise. When a prospect tells you a competitor is cheaper, what they're really saying is: "I don't yet see enough difference in value to justify the price difference."\n\nThe answer is never to immediately discount. The answer is to go back to the value equation and make the difference undeniable. If you can demonstrate that your solution produces $500,000 more in value than the competitor's, a $50,000 price difference becomes irrelevant.`,
+    rule: "When a competitor goes lower on price, go deeper on value — never immediately to the discount.",
+    ruleSub: "The price challenge response: 'Before we talk about price, let me make sure we've fully quantified the value difference. If we can show that [specific outcome], does the price difference still feel like the deciding factor?'",
+    actions: [
+      "Think about the last deal where you discounted under competitive price pressure. Had you fully established your value differential before discounting?",
+      "For your current pipeline, identify any deal where you might face price pressure. Build the specific value differential now — before you need it.",
+      "Practice the price challenge response above until it feels natural, not defensive."
+    ],
+    actionNote: "Every discount you give without exhausting the value argument is margin you didn't have to give up. Hold the line longer than feels comfortable.",
+    quiz: {
+      question: "A prospect says a competitor came in 25% cheaper. What do you do first?",
+      options: [
+        "Ask your manager for approval to match their price",
+        "Ask the prospect what they'd be giving up by choosing the cheaper option",
+        "Go back to the value equation and quantify the specific difference in outcomes",
+        "Explain that your higher price reflects higher quality and better support"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. Before you touch price, go back to value. Quantify the specific difference in outcomes between your solution and theirs. If the value differential is clear and compelling, the price difference shrinks. Discount only after you've exhausted the value argument — and only by as much as necessary.",
+      wrongFeedback: "Discounting immediately or making general quality claims both lose margin without winning on substance. Go back to the value equation first. Quantify the specific difference in outcomes. A $50,000 price difference is irrelevant when the value difference is $300,000."
+    }
+  },
+  {
+    id: 44,
+    module: 5,
+    day: 44,
+    title: "The incumbent advantage — and how to beat it",
+    subtitle: "Winning when the prospect already has a vendor they're comfortable with",
+    story: `The hardest deal to win isn't the one where you're competing against another strong vendor. It's the one where the prospect already has someone in place — and the bar to switch is "better than what we have."\n\nI spent six months trying to beat an incumbent by being better. Better features, better support, better price. The incumbent wasn't great but they were good enough, and good enough plus inertia is a powerful combination.\n\nI finally won the deal when I stopped trying to be better and started making the cost of staying visible. The incumbent wasn't just costing them features — they were costing them $340,000 a year in workarounds, manual processes, and employee time. Nobody had ever calculated that number before I did.`,
+    insight: `Incumbents win on inertia. The switching cost — real or perceived — is always on your side of the ledger as a challenger. To beat an incumbent, you have to do two things: make the cost of staying more visible than the cost of switching, and make the risk of switching feel smaller than it actually is.\n\nThe cost of staying is almost always larger than the prospect thinks. Your job is to calculate it with them — and then to present a transition plan that makes the switch feel manageable, not terrifying.`,
+    rule: "To beat an incumbent, calculate the cost of staying and minimize the perceived risk of switching.",
+    ruleSub: "Ask: 'What workarounds has your team built around your current solution?' Every workaround has a cost. Add them up. That's the real price of the incumbent — and it's almost always bigger than anyone realized.",
+    actions: [
+      "In any deal where you're competing against an incumbent, ask: 'What workarounds has your team built to compensate for what your current solution doesn't do?'",
+      "Calculate the cost of those workarounds — in time, people, and errors.",
+      "Build a transition plan that addresses the top three switching concerns before they're raised."
+    ],
+    actionNote: "The prospect who sees the cost of staying and the path to switching clearly is the prospect who switches. Make both visible.",
+    quiz: {
+      question: "A prospect says 'our current vendor isn't perfect but switching seems like a lot of work.' What's your response?",
+      options: [
+        "Explain that your onboarding process is fast and painless",
+        "Share a case study of a customer who switched from a similar vendor",
+        "Ask what workarounds they've built around the current solution and calculate what those cost",
+        "Offer a longer free trial to reduce the perceived risk of switching"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. Before addressing the switching cost, make the staying cost visible. Ask about workarounds and calculate what they cost. When the cost of staying is $200,000 a year and the switching effort is a three-month project, the math changes the conversation.",
+      wrongFeedback: "Addressing the switching cost before making the staying cost visible is fighting on the wrong ground. Ask about workarounds first. Calculate what they cost. When the cost of staying is larger than the cost of switching, the conversation changes entirely."
+    }
+  },
+  {
+    id: 45,
+    module: 5,
+    day: 45,
+    title: "Landmines and land grabs",
+    subtitle: "How competitors try to kill your deals — and how to protect them",
+    story: `A competitor of mine had a tactic I learned about the hard way. Whenever they found out they were in a competitive situation with us, they would send a "technical concerns" document to the prospect's IT team — a list of questions about our security, integration capabilities, and data handling, written in technical language that made us sound risky.\n\nIt worked three times before I figured out what was happening.\n\nOnce I knew the tactic, I started inoculating against it. In every deal, before the competitor could get to the IT team, I would schedule a call with the IT lead and proactively address every concern on their list — with documentation. By the time the competitor's document arrived, we'd already answered everything in it.`,
+    insight: `Every competitor has tactics. Some are obvious. Some are subtle. The rep who knows the tactics in advance can inoculate against them — raising the issue before the competitor does, addressing it head on, and neutralizing it before it becomes a threat.\n\nInoculation is one of the most powerful competitive tools available. "I want to mention something you might hear from other vendors" is a sentence that can protect a deal from competitive attacks that would otherwise land.`,
+    rule: "Know your competitors' attack tactics. Inoculate against them before they can land.",
+    ruleSub: "Inoculation formula: 'I want to mention something proactively — you may hear from other vendors that [competitive attack]. Here's the full picture on that: [honest response]. I'd rather you hear it from me first than be surprised by it later.'",
+    actions: [
+      "For each of your top three competitors, write down their most common attack line against you.",
+      "In your next competitive deal, bring up that attack line yourself before the competitor can — with your honest response ready.",
+      "Ask your champion: 'Is there anything you've heard about us from other vendors that you'd want me to address directly?'"
+    ],
+    actionNote: "Proactively raising a concern and addressing it honestly builds more trust than pretending the concern doesn't exist. Inoculate early.",
+    quiz: {
+      question: "You know a competitor typically tells prospects that your implementation takes too long. What do you do?",
+      options: [
+        "Wait to see if the prospect brings it up and respond if they do",
+        "Proactively raise the topic yourself with your honest answer before the competitor can",
+        "Prepare a detailed implementation timeline to share if asked",
+        "Ask your champion to tell you if they hear anything negative about you"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Exactly. Inoculate before the attack lands. Raise the concern yourself, address it honestly, and contextualize it. A concern you raise proactively is a strength. The same concern raised by a competitor is a threat you have to overcome reactively.",
+      wrongFeedback: "Waiting for a competitor's attack to land puts you on defense. Raise the concern yourself, before they do, with your honest answer ready. 'I want to mention something you might hear from other vendors' is one of the most powerful sentences in competitive selling."
+    }
+  },
+  {
+    id: 46,
+    module: 5,
+    day: 46,
+    title: "The reference that wins",
+    subtitle: "How to use customer references as a competitive weapon",
+    story: `Most reps treat references as a formality — something the prospect asks for near the end of the process and you scramble to arrange. You call your three happiest customers, hope they're available, and cross your fingers.\n\nThe best competitive use of references I ever saw was by a rep who deployed them as a weapon, not a formality. She had a shortlist of five customers she'd briefed specifically for competitive situations. Each one had beaten the same competitor she was facing. Each one was ready to speak to the specific comparison the prospect was making.\n\nShe didn't wait to be asked. She offered references at the beginning of the competitive evaluation — specific ones, matched to the prospect's industry and use case. The competitor couldn't match it.`,
+    insight: `A reference offered proactively is ten times more powerful than one provided reactively. When you offer the right reference — same industry, same problem, same competitive situation — before you're asked, it signals confidence and specificity that generic reference lists can't match.\n\nThe best competitive references aren't just happy customers. They're customers who considered the same competitor, chose you, and are willing to say why. That specific narrative is worth more than any feature comparison you could build.`,
+    rule: "Build a competitive reference library. For each major competitor, have at least two customers ready to speak to why they chose you over that specific alternative.",
+    ruleSub: "Brief your references before deploying them. Tell them who the prospect is, what competitor is involved, and what specific questions they're likely to ask. A briefed reference gives a targeted answer. An unbriefed one gives a generic one.",
+    actions: [
+      "List your top three competitors. For each one, identify one or two customers who chose you over that specific competitor and would be willing to be a reference.",
+      "Call those customers this week — not when you need them. Brief them on the competitive landscape and ask if they'd be willing to speak to a prospect facing the same decision.",
+      "In your next competitive deal, offer a specific reference proactively: 'I have a customer in your industry who evaluated both us and [competitor] — would it be valuable to speak with them?'"
+    ],
+    actionNote: "A reference you offer before being asked is a differentiator. A reference you scramble to find when asked is a liability.",
+    quiz: {
+      question: "A prospect is evaluating you against a competitor you've beaten before. When should you offer references?",
+      options: [
+        "When the prospect asks for them, typically near the end of the evaluation",
+        "After the demo, if the prospect seems interested",
+        "Proactively and early — offer a specific reference who faced the same competitive decision",
+        "Only if the prospect specifically asks to speak with customers who considered the same competitor"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Right. Proactive, specific references offered early are a competitive weapon. 'I have a customer who evaluated both us and [competitor] and chose us — would it be valuable to speak with them?' is a sentence that changes the dynamic of a competitive evaluation.",
+      wrongFeedback: "Waiting to be asked for references is reactive. Offering a specific, relevant reference proactively — before you're asked — signals confidence and specificity that generic reference lists can't match. Do it early and do it deliberately."
+    }
+  },
+  {
+    id: 47,
+    module: 5,
+    day: 47,
+    title: "Competing against 'build it ourselves'",
+    subtitle: "The toughest competitor you'll ever face — and how to beat it",
+    story: `The most underestimated competitor in complex B2B sales isn't another vendor. It's the internal engineering team.\n\n"We're thinking about building this ourselves" is a sentence that has killed more deals than any external competitor I've ever faced. It sounds reasonable — the prospect controls the outcome, they customize it perfectly, no recurring license fee.\n\nI lost three deals to internal builds before I developed a framework for competing against them. The framework wasn't about attacking the idea. It was about making the true cost of the build visible — in time, in talent, in opportunity cost, and in ongoing maintenance that the prospect almost never accounts for.`,
+    insight: `Internal builds almost always cost more than they appear to and deliver less than promised. The prospect imagines a team of engineers building exactly what they need in six months. The reality is twelve to eighteen months, scope creep, competing priorities, and a product that requires ongoing maintenance by engineers who'd rather be doing something else.\n\nYour job isn't to tell them their engineers can't do it. It's to help them calculate the full cost of building, maintaining, and evolving a solution internally — and compare it honestly to the total cost of buying from you.`,
+    rule: "When competing against 'build it ourselves,' calculate the true cost of building — including opportunity cost and ongoing maintenance.",
+    ruleSub: "The build cost framework: engineering hours × loaded cost + opportunity cost of engineers not working on core product + ongoing maintenance cost (typically 20% of build cost per year) + time to market delay. Most internal builds cost 3-5x the apparent estimate.",
+    actions: [
+      "In any deal where 'build it ourselves' is on the table, ask: 'What's your estimate for engineering hours to build this? What's your engineers' loaded cost? What else would they be working on instead?'",
+      "Help them calculate the full cost — including maintenance and opportunity cost.",
+      "Ask: 'If it takes 18 months to build and another 6 to stabilize, what's the cost of that delay to the business?'"
+    ],
+    actionNote: "Don't attack the build option. Help them evaluate it honestly. When they run the numbers themselves, the build option usually loses.",
+    quiz: {
+      question: "A prospect says 'we're considering building this internally.' What's your first move?",
+      options: [
+        "Explain that custom builds rarely deliver on time or on budget",
+        "Ask them to calculate the full cost of building — hours, loaded cost, opportunity cost, and ongoing maintenance",
+        "Share a case study of a company that tried to build internally and failed",
+        "Offer to do a custom integration that addresses their specific needs"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Right. Don't attack the build option — help them evaluate it honestly. Ask them to calculate the full cost with their own numbers. Engineering hours, loaded cost, opportunity cost of those engineers, ongoing maintenance. When they run the math themselves, the build option usually loses — and it was their math, not yours.",
+      wrongFeedback: "Attacking the build option or sharing failure stories puts you on defense. Help them calculate the full cost with their own numbers instead. When the prospect runs the math — hours, loaded cost, opportunity cost, maintenance — the build option almost always costs more than they expected."
+    }
+  },
+  {
+    id: 48,
+    module: 5,
+    day: 48,
+    title: "The competitive win debrief",
+    subtitle: "Why the deals you win teach you more than the deals you lose",
+    story: `Most sales organizations have a process for debriefing losses. They analyze what went wrong, who the competitor was, what objections came up. Losses get studied.\n\nWins get celebrated and forgotten.\n\nI started doing win debriefs with prospects after we closed deals, and what I learned changed my competitive approach more than any loss debrief ever had. One customer told me we won because of a specific thing our champion said in the final committee meeting — a phrase she'd used that came directly from language I'd given her six weeks earlier. I didn't know it had mattered that much until she told me.\n\nNow I know. And I replicate it.`,
+    insight: `Wins contain the highest-quality competitive intelligence available. When a prospect chose you over a competitor, they can tell you exactly why — and that "why" is the most specific, credible, and actionable feedback you'll ever get.\n\nThe win debrief question that changes everything: "Was there a specific moment in our process where you felt confident we were the right choice?" The answer to that question is a playbook for your next competitive deal.`,
+    rule: "Debrief every competitive win. The moment that decided the deal is your most valuable competitive asset.",
+    ruleSub: "Win debrief questions: 'What was it about our process or solution that stood out versus the alternatives?' and 'Was there a specific moment when you felt confident we were the right choice?' Those two questions will tell you more than any competitive analysis.",
+    actions: [
+      "Identify your last three competitive wins. Did you debrief the customer after closing?",
+      "Reach out to one of those customers this week and ask the two win debrief questions above.",
+      "Document what you learn and use it in your next competitive deal."
+    ],
+    actionNote: "Win debriefs are also relationship investments. Customers appreciate being asked why they chose you — it signals that you care about getting better, not just closing deals.",
+    quiz: {
+      question: "You just won a competitive deal. What's the most valuable thing you can do in the next week?",
+      options: [
+        "Send a thank you gift to your champion",
+        "Ask the customer for a reference and testimonial",
+        "Debrief the customer to find out what specifically drove the decision in your favor",
+        "Document the win in your CRM with the key factors"
+      ],
+      correctIndex: 2,
+      correctFeedback: "Exactly. The win debrief is your most valuable competitive intelligence. 'What stood out versus the alternatives?' and 'Was there a specific moment when you felt confident?' — those answers are a playbook for your next competitive deal. Collect them while the memory is fresh.",
+      wrongFeedback: "References and CRM updates are valuable but they capture the outcome, not the intelligence. The win debrief captures the decision — what specifically drove the prospect to choose you. That intelligence is worth more than any competitive analysis you could do independently."
+    }
+  },
+  {
+    id: 49,
+    module: 5,
+    day: 49,
+    title: "When you're the underdog",
+    subtitle: "How to win when the odds are against you",
+    story: `I've been the underdog in more deals than I've been the favorite. Smaller company, less brand recognition, newer product, fewer references in the industry.\n\nThe temptation when you're the underdog is to try to look bigger than you are. To borrow credibility you don't have. To deflect questions about size and scale.\n\nThe approach that worked for me was the opposite. I leaned into being smaller. "We're not the biggest name in this space, and I'm not going to pretend otherwise. What I can tell you is that our team treats every customer as a strategic account — because for us, every customer is." That line won me deals that the larger competitor's sales process lost for them.`,
+    insight: `The underdog has advantages that the market leader doesn't. Attention. Hunger. Flexibility. Access. When the prospect talks to a large vendor, they get a junior AE and a standard demo. When they talk to you, they might get the CEO and a customized solution.\n\nThe underdog who tries to compete on the incumbent's terms loses. The underdog who reframes the competition on their own terms — speed, attention, flexibility, commitment — wins deals that shouldn't be winnable on paper.`,
+    rule: "Don't compete on the market leader's terms. Reframe the competition around the dimensions where you win.",
+    ruleSub: "The underdog reframe: 'I want to be direct with you — we're not the biggest name in this space. What that means for you is [specific advantage: attention, speed, flexibility, access to leadership]. Here's what that's looked like for customers in similar situations.'",
+    actions: [
+      "If you're at a smaller or less well-known company, write out your underdog advantages honestly — what do you offer that a larger competitor genuinely can't or won't?",
+      "Prepare a one-paragraph underdog reframe that acknowledges your size honestly and pivots to your specific advantages.",
+      "Use it proactively in your next competitive deal before the prospect brings up your size."
+    ],
+    actionNote: "Prospects respect honesty about size more than they respect pretending to be something you're not. Own your advantages. Don't apologize for your constraints.",
+    quiz: {
+      question: "A prospect says 'you're a smaller company — how do we know you'll be around in five years?' What's the best response?",
+      options: [
+        "Share your funding history and growth metrics to prove stability",
+        "Acknowledge the concern honestly, then explain what being smaller means for their experience as a customer",
+        "Point out that large companies also go through acquisitions and changes",
+        "Offer a longer contract term to demonstrate commitment"
+      ],
+      correctIndex: 1,
+      correctFeedback: "Right. Acknowledge the concern honestly — don't deflect or overcompensate. Then pivot: being smaller means every customer is a strategic account, not a number in a portfolio. That reframe, delivered with confidence, turns a liability into a differentiator.",
+      wrongFeedback: "Defensive responses — funding history, competitor comparisons, contractual commitments — all signal that the concern hit a nerve. Acknowledge it honestly instead, then pivot to what being smaller actually means for their experience. That's the response that builds trust."
+    }
+  },
+  {
+    id: 50,
+    module: 5,
+    day: 50,
+    title: "Competitive mastery: the mindset that wins",
+    subtitle: "Why the best competitive sellers don't think about beating competitors — they think about serving customers",
+    story: `The most competitive sales rep I ever knew never talked about competitors. In deal reviews, in call debriefs, in strategy sessions — she rarely mentioned the other vendors by name.\n\nI asked her about it once. She said: "If I'm focused on them, I'm not focused on the customer. And the customer is the only thing that wins deals."\n\nShe had the highest win rate on the team for four consecutive years. She attributed it entirely to this: she knew her competitors well enough to never be surprised by them, and then she put all of her energy into understanding the customer better than anyone else in the room.`,
+    insight: `Competitive mastery isn't about obsessing over competitors. It's about knowing them well enough that they never surprise you — and then directing your full energy toward the customer.\n\nThe rep who wins competitive deals consistently isn't the one who has the best counter to every competitor's attack line. It's the one who understands the customer's problem so deeply, builds the business case so compellingly, and earns the champion's trust so completely that the competitor simply can't get traction.\n\nKnow your competitors. Then forget about them. The customer is the only competitive advantage that scales.`,
+    rule: "Know your competitors well enough to never be surprised. Then focus entirely on the customer.",
+    ruleSub: "The competitive mindset: 'I will know everything about my competitors so that nothing they do catches me off guard. And then I will spend every available minute understanding this customer better than they do.'",
+    actions: [
+      "For your top active competitive deal, ask yourself: have I done enough competitive prep that I can't be surprised? If yes, stop thinking about the competitor.",
+      "Now ask: do I understand this customer's problem, their internal politics, their success criteria, and their personal stakes better than any other vendor in this deal? That's where your energy goes.",
+      "In your next competitive deal, measure your preparation time: how much goes to competitor research versus customer understanding? Optimize for the second."
+    ],
+    actionNote: "Module 6 unlocks tomorrow. It covers the final frontier: closing and negotiation — protecting your price, handling final objections, and getting to yes without leaving value on the table.",
+    quiz: {
+      question: "Which best describes the mindset of the most consistently competitive sales rep?",
+      options: [
+        "Always knows what competitors are doing and responds to every move they make",
+        "Focuses entirely on their own strengths and ignores competitive dynamics",
+        "Knows competitors well enough to never be surprised, then directs full energy toward the customer",
+        "Uses competitive intelligence to proactively attack competitors' weaknesses"
+      ],
+      correctIndex: 2,
+      correctFeedback: "That's the competitive mastery mindset. Know competitors well enough that nothing surprises you. Then put every available unit of energy into understanding the customer better than anyone else in the deal. The customer is the only competitive advantage that scales.",
+      wrongFeedback: "Obsessing over competitors or ignoring them entirely are both losing approaches. The winning mindset is: know them well enough to never be surprised, then focus entirely on the customer. Deep customer understanding wins more competitive deals than any counter-tactic ever will."
+    }
   }
 ]
 
