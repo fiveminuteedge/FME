@@ -11,6 +11,8 @@ export default function DashboardPage() {
   const [streak, setStreak] = useState(0)
   const [unlockedCount, setUnlockedCount] = useState(1)
   const [loading, setLoading] = useState(true)
+  const [hasAccess, setHasAccess] = useState(true)
+  const [redirecting, setRedirecting] = useState(false)
   const router = useRouter()
   const supabase = createClient()
 
@@ -19,6 +21,21 @@ export default function DashboardPage() {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) { router.push('/auth/login'); return }
       setUser(user)
+
+      // Check subscription status
+      const { data: sub } = await supabase
+        .from('subscriptions')
+        .select('status, trial_end')
+        .eq('email', user.email)
+        .single()
+
+      if (sub) {
+        const trialActive = sub.status === 'trialing' && sub.trial_end && new Date(sub.trial_end) > new Date()
+        const subActive = sub.status === 'active'
+        setHasAccess(trialActive || subActive)
+      } else {
+        setHasAccess(false)
+      }
 
       // Get progress
       const { data: prog } = await supabase
@@ -50,9 +67,37 @@ export default function DashboardPage() {
     router.push('/')
   }
 
+  const resubscribe = async () => {
+    setRedirecting(true)
+    const res = await fetch('/api/create-checkout', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: user?.email })
+    })
+    const data = await res.json()
+    if (data.url) {
+      window.location.href = data.url
+    } else {
+      setRedirecting(false)
+    }
+  }
+
   if (loading) return (
     <div className="bg-hero min-h-screen flex items-center justify-center">
       <div className="text-blue-300 text-sm animate-pulse">Loading your dashboard...</div>
+    </div>
+  )
+
+  if (!hasAccess) return (
+    <div className="bg-hero min-h-screen flex items-center justify-center px-6">
+      <div className="bg-card rounded-2xl p-8 max-w-md text-center">
+        <div className="text-3xl mb-4">🔒</div>
+        <h2 className="font-display text-2xl text-white mb-3">Your trial has ended</h2>
+        <p className="text-sm text-blue-300 mb-6">Subscribe to keep your streak going and unlock all 60 lessons.</p>
+        <button onClick={resubscribe} disabled={redirecting} className="btn-primary inline-block disabled:opacity-50">
+          {redirecting ? 'Redirecting...' : 'Subscribe now →'}
+        </button>
+      </div>
     </div>
   )
 
