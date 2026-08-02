@@ -95,6 +95,14 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
               {loading ? 'Redirecting to checkout...' : mode === 'signup' ? 'Start free trial' : 'Sign in'}
             </button>
           </form>
+
+          {mode === 'login' && (
+            <p className="text-center text-sm mt-4">
+              <Link href="/auth/forgot-password" className="text-blue-300 hover:text-gray-900 transition-colors">
+                Forgot password?
+              </Link>
+            </p>
+          )}
         </div>
 
         <p className="text-center text-sm text-blue-400 mt-4">
