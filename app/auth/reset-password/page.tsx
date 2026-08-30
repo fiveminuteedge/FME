@@ -107,4 +107,8 @@ function ResetPasswordInner() {
 
 export default function ResetPasswordPage() {
   return (
-    <Suspense fallback={<main
+    <Suspense fallback={<main className="bg-hero min-h-screen flex items-center justify-center"><div className="text-blue-300 animate-pulse">Loading...</div></main>}>
+      <ResetPasswordInner />
+    </Suspense>
+  )
+}
