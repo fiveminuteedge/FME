@@ -1,5 +1,5 @@
 'use client'
-import { Suspense, useState } from 'react'
+import { Suspense, useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
@@ -10,8 +10,22 @@ function ResetPasswordInner() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [success, setSuccess] = useState(false)
+  const [sessionReady, setSessionReady] = useState(false)
+  const [sessionError, setSessionError] = useState('')
   const router = useRouter()
   const supabase = createClient()
+
+  useEffect(() => {
+    const setup = async () => {
+      const { error } = await supabase.auth.exchangeCodeForSession(window.location.href)
+      if (error) {
+        setSessionError('This reset link is invalid or has expired. Please request a new one.')
+      } else {
+        setSessionReady(true)
+      }
+    }
+    setup()
+  }, [])
 
   const handle = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -47,11 +61,21 @@ function ResetPasswordInner() {
         </Link>
 
         <div className="bg-card rounded-2xl p-7">
-          {success ? (
+          {sessionError ? (
+            <>
+              <h1 className="font-display text-2xl text-gray-900 mb-2">Link expired</h1>
+              <p className="text-sm text-blue-300 mb-4">{sessionError}</p>
+              <Link href="/auth/forgot-password" className="btn-primary inline-block">
+                Request new link
+              </Link>
+            </>
+          ) : success ? (
             <>
               <h1 className="font-display text-2xl text-gray-900 mb-2">Password updated</h1>
               <p className="text-sm text-blue-300">Taking you to your dashboard...</p>
             </>
+          ) : !sessionReady ? (
+            <p className="text-sm text-blue-300 animate-pulse">Verifying your reset link...</p>
           ) : (
             <>
               <h1 className="font-display text-2xl text-gray-900 mb-1">Set a new password</h1>
