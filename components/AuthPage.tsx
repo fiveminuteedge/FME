@@ -7,6 +7,7 @@ import { createClient } from '@/lib/supabase/client'
 export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const router = useRouter()
@@ -18,7 +19,6 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
     setError('')
 
     if (mode === 'signup') {
-      // Store credentials temporarily then redirect to Stripe
       sessionStorage.setItem('signup_email', email)
       sessionStorage.setItem('signup_password', password)
 
@@ -72,17 +72,26 @@ export default function AuthPage({ mode }: { mode: 'login' | 'signup' }) {
             </div>
             <div>
               <label className="block text-sm text-blue-300 mb-1.5">Password</label>
-              <input
-                type="password"
-                autoCapitalize="none"
-                autoCorrect="off"
-                value={password}
-                onChange={e => setPassword(e.target.value)}
-                required
-                minLength={6}
-                className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
-                placeholder="••••••••"
-              />
+              <div className="relative">
+                <input
+                  type={showPassword ? 'text' : 'password'}
+                  autoCapitalize="none"
+                  autoCorrect="off"
+                  value={password}
+                  onChange={e => setPassword(e.target.value)}
+                  required
+                  minLength={6}
+                  className="w-full bg-white/6 border border-white/10 rounded-lg px-3.5 py-2.5 pr-16 text-gray-900 text-sm placeholder-blue-400/50 focus:outline-none focus:border-blue-400 transition-colors"
+                  placeholder="••••••••"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-blue-300 hover:text-gray-900 transition-colors"
+                >
+                  {showPassword ? 'Hide' : 'Show'}
+                </button>
+              </div>
             </div>
 
             {error && (
