@@ -16,15 +16,34 @@ function ResetPasswordInner() {
   const supabase = createClient()
 
   useEffect(() => {
-    const setup = async () => {
-      const { error } = await supabase.auth.exchangeCodeForSession(window.location.href)
-      if (error) {
-        setSessionError('This reset link is invalid or has expired. Please request a new one.')
-      } else {
+    // Check if a session already exists (in case the event already fired)
+    supabase.auth.getSession().then(({ data }) => {
+      if (data.session) {
         setSessionReady(true)
       }
+    })
+
+    // Listen for the PASSWORD_RECOVERY event Supabase fires automatically
+    const { data: listener } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY') {
+        setSessionReady(true)
+      }
+    })
+
+    // If nothing happens within 5 seconds, assume the link is invalid/expired
+    const timeout = setTimeout(() => {
+      setSessionReady(current => {
+        if (!current) {
+          setSessionError('This reset link is invalid or has expired. Please request a new one.')
+        }
+        return current
+      })
+    }, 5000)
+
+    return () => {
+      listener.subscription.unsubscribe()
+      clearTimeout(timeout)
     }
-    setup()
   }, [])
 
   const handle = async (e: React.FormEvent) => {
