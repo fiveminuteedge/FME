@@ -33,13 +33,13 @@ export default function HomePage() {
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
           <Link href="/auth/signup" className="btn-primary text-base px-8 py-3.5">
-            Start your free 7-day trial
+            Start your free 3-day trial
           </Link>
           <Link href="#how-it-works" className="btn-secondary text-base px-8 py-3.5">
             See how it works
           </Link>
         </div>
-        <p className="text-sm text-blue-400">No credit card required to start. $19/month after trial.</p>
+        <p className="text-sm text-blue-400">Card required to start trial. $19/month after — cancel anytime.</p>
       </section>
 
       {/* Social proof strip */}
@@ -121,7 +121,7 @@ export default function HomePage() {
               'Streak tracking and progress dashboard',
               'Quiz-based retention system',
               'New modules added regularly',
-              '7-day free trial, no card required',
+              '3-day free trial',
             ].map(f => (
               <li key={f} className="flex items-center gap-2">
                 <span className="text-blue-400">✓</span> {f}
@@ -132,7 +132,7 @@ export default function HomePage() {
           <Link href="/auth/signup" className="btn-primary w-full block text-center text-base py-3.5">
             Start free trial
           </Link>
-          <p className="text-xs text-blue-400 mt-3">7 days free. $19/month after. Cancel anytime.</p>
+          <p className="text-xs text-blue-400 mt-3">3 days free. $19/month after. Cancel anytime.</p>
         </div>
       </section>
 
@@ -143,6 +143,7 @@ export default function HomePage() {
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-blue-200 transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-blue-200 transition-colors">Terms</Link>
+            <Link href="/contact" className="hover:text-blue-200 transition-colors">Contact</Link>
           </div>
         </div>
       </footer>
